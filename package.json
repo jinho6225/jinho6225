@@ -1,0 +1,34 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "jinho's portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "nodemon": "^2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-react-jsx": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "build": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinho6225/jinho6225.git"
+  },
+  "author": "jinho6225",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinho6225/jinho6225/issues"
+  },
+  "homepage": "https://github.com/jinho6225/jinho6225#readme"
+}
