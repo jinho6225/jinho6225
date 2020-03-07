@@ -16,9 +16,12 @@
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   },
+  "eslintConfig": {
+    "sourceType": "module"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
+    "start": "nodemon src/index.js",
     "build": "webpack -d --watch"
   },
   "repository": {
