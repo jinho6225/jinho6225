@@ -1,28 +1,37 @@
-import React, { Component } from 'react';
-import List from './List.jsx';
+import React, { Component } from "react";
+import Home from "./home.jsx";
+import Applications from "./applications.jsx";
+import TeckStack from "./teck-stack.jsx";
+import ContactMe from "./contact-me.jsx";
+import AboutMe from "./about-me.jsx";
+import NavBar from "./nav-bar.jsx";
+import styled from "styled-components";
+import Scroll from "react-scroll";
+
+let Element = Scroll.Element;
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      portfolioArr: [
-        {link: "http://react-flash-card.jinho6225.com", title: "Flash-Card", id: 1},
-        {link: "http://vanillaJS.jinho6225.com", title: "TodoList-Clock-Weather", id: 2},
-        {link: "http://pororo-memory-match.jinho6225.com", title: "PoRoRo-Memory-match", id: 3},
-        {link: "http://gradetable.jinho6225.com", title: "Student-Grade-Table", id: 4},
-        {link: "http://webapp.jinho6225.com", title: "Simple webapp", id: 5},
-        {link: "http://memory-match.jinho6225.com", title: "Memory-match", id: 6},
-        {link: "http://jinho6225.github.io", title: "Jinho's blog", id: 7}
-      ]
-    }
-  }
   render() {
-    const { portfolioArr } = this.state;
     return (
       <div>
-        <List portfolioArr={portfolioArr} />
+        <NavBar />
+        <Element name="Home">
+          <Home />
+        </Element>
+        <Element name="Applications">
+          <Applications />
+        </Element>
+        <Element name="TechStack">
+          <TeckStack />
+        </Element>
+        <Element name="About">
+          <AboutMe />
+        </Element>
+        <Element name="Contact">
+          <ContactMe />
+        </Element>
       </div>
-    )
+    );
   }
 }
 
