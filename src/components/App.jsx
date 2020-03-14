@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Home from "./home.jsx";
+import styled from "styled-components";
+import Scroll from "react-scroll";
 import Applications from "./applications.jsx";
-import TeckStack from "./teck-stack.jsx";
+import TechSkill from "./teck-stack.jsx";
 import ContactMe from "./contact-me.jsx";
 import AboutMe from "./about-me.jsx";
 import NavBar from "./nav-bar.jsx";
-import styled from "styled-components";
-import Scroll from "react-scroll";
+import Home from "./home.jsx";
 
 let Element = Scroll.Element;
 
@@ -14,15 +14,17 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
+        <Element name="Jinho">
+          <NavBar />
+        </Element>
         <Element name="Home">
           <Home />
         </Element>
         <Element name="Applications">
           <Applications />
         </Element>
-        <Element name="TechStack">
-          <TeckStack />
+        <Element name="TechSkill">
+          <TechSkill />
         </Element>
         <Element name="About">
           <AboutMe />

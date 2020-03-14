@@ -6,7 +6,6 @@ const AboutDiv = styled.div`
   height: 99vh;
   background-color: #0d1522;
   color: #f4fdfb;
-  margin: 0.5rem;
 `;
 
 const AboutMe = () => {

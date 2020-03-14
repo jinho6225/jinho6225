@@ -7,13 +7,12 @@ const HomeDiv = styled.div`
   height: 99vh;
   background-color: #0d1522;
   color: #f4fdfb;
-  margin: 0.5rem;
   position: relative;
 `;
-const H4 = styled.h4`
+const H2 = styled.h2`
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 `;
@@ -22,11 +21,14 @@ class Home extends Component {
   componentDidMount() {
     const options = {
       strings: [
-        "am Full Stack Developer👨🏻‍💻",
-        "am Software Engineer🚀",
-        "am still learing🙇🏻‍♂️",
-        "like to learn new thing😍"
-        "won't stop to learning!👊🏻"
+        "HTML5",
+        "CSS3",
+        "JavaScript(ES6)",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "PostgreSQL"
       ],
       typeSpeed: 150,
       startDelay: 500,
@@ -42,11 +44,14 @@ class Home extends Component {
   render() {
     return (
       <HomeDiv>
-        <H3 className="page-2-h4">
+        <H2 className="page-2-h4">
           <p>
-            <strong>Jinho Myung</strong>
+            <strong>Jinho Myung🏋🏻‍♀️</strong>
           </p>
-          I &nbsp;
+          <p>
+            <strong>Full Stack Developer🚀</strong>
+          </p>
+          👨🏻‍💻I know &nbsp;
           <strong
             id="typed"
             style={{ whiteSpace: "pre" }}
@@ -54,7 +59,8 @@ class Home extends Component {
               this.el = el;
             }}
           ></strong>
-        </H3>
+          👊🏻
+        </H2>
       </HomeDiv>
     );
   }
