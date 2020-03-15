@@ -1,25 +1,62 @@
 import React, { Component } from "react";
 import Scroll from "react-scroll";
 import styled from "styled-components";
-import Responsive from "react-responsive";
 
 let Link = Scroll.Link;
 
-const Ultag = styled.ul`
+const NavDiv = styled.div`
+  width: 100%;
+  background-color: #17253a;
+  color: #f4fdfb;
   display: flex;
-  flex-direction: row;
-  @media (max-width: 767px) {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  position: fixed;
+  top: 0;
+  @media (max-width: 576px) {
+    padding: 1% 5%;
     flex-direction: column;
   }
 `;
-
-const NavDiv = styled.div`
+const Title = styled.div`
+  font-size: 2rem;
+  margin: 1%;
+  width: 50%;
+  @media (max-width: 576px) {
+    width: 100%;
+    margin-left: 2%;
+    padding: 1%;
+  }
+`;
+const NavList = styled.div`
+  font-size: 1rem;
+  margin: 1%;
+  width: 50%;
+  @media (max-width: 576px) {
+    width: 100%;
+    margin-left: 2%;
+    padding: 1%;
+  }
+`;
+const Ultag = styled.ul`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  height: 10vh;
-  background-color: #17253a;
-  color: #f4fdfb;
-  @media (max-width: 767px) {
-    height: 35vh;
+  list-style-type: none;
+  cursor: pointer;
+  @media (max-width: 576px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+`;
+const Litag = styled.li`
+  margin: 0 2%;
+  @media (max-width: 576px) {
+    margin: 0.5% 2%;
   }
 `;
 const H4 = styled.h4`
@@ -29,7 +66,7 @@ const H4 = styled.h4`
   margin: 0;
 `;
 const Span = styled.span`
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px pink;
 `;
@@ -37,14 +74,10 @@ const Span = styled.span`
 class NavBar extends Component {
   render() {
     return (
-      <NavDiv className="row d-flex justify-content-between align-items-center fixed-top m-0 px-5">
-        <div
-          className="d-flex justify-content-lg-start justify-content-md-start justify-content-sm-center justify-content-center
-        col col-lg-4 order-lg-1 col-md-4 order-md-1 col-sm-12 order-sm-1 col-12 order-1 w-40"
-        >
+      <NavDiv>
+        <Title>
           <Link
             activeClass="active"
-            className="navbar-brand"
             to="Home"
             spy={true}
             smooth={true}
@@ -57,18 +90,14 @@ class NavBar extends Component {
             onSetInactive={this.handleSetInactive}
             ignoreCancelEvents={false}
           >
-            <H4>Jinho Myung</H4>
+            <H4>Jinho Myung🔥</H4>
           </Link>
-        </div>
-        <div
-          className="d-flex justify-content-lg-end justify-content-md-end justify-content-sm-center justify-content-center
-        col col-lg-4 order-lg-1 col-md-8 order-md-1 col-sm-12 order-sm-1 col-12 order-1"
-        >
-          <Ultag className="navbar-nav">
-            <li className="nav-item">
+        </Title>
+        <NavList>
+          <Ultag>
+            <Litag>
               <Link
                 activeClass="active"
-                className="navbar-brand"
                 to="Home"
                 spy={true}
                 smooth={true}
@@ -83,11 +112,10 @@ class NavBar extends Component {
               >
                 <Span>Home</Span>
               </Link>
-            </li>
-            <li className="nav-item">
+            </Litag>
+            <Litag>
               <Link
                 activeClass="active"
-                className="navbar-brand"
                 to="Applications"
                 spy={true}
                 smooth={true}
@@ -102,11 +130,10 @@ class NavBar extends Component {
               >
                 <Span>Applications</Span>
               </Link>
-            </li>
-            <li className="nav-item">
+            </Litag>
+            <Litag>
               <Link
                 activeClass="active"
-                className="navbar-brand"
                 to="TechSkill"
                 spy={true}
                 smooth={true}
@@ -121,11 +148,10 @@ class NavBar extends Component {
               >
                 <Span>TechSkill</Span>
               </Link>
-            </li>
-            <li className="nav-item">
+            </Litag>
+            <Litag>
               <Link
                 activeClass="active"
-                className="navbar-brand"
                 to="About"
                 spy={true}
                 smooth={true}
@@ -140,11 +166,10 @@ class NavBar extends Component {
               >
                 <Span>About</Span>
               </Link>
-            </li>
-            <li className="nav-item">
+            </Litag>
+            <Litag>
               <Link
                 activeClass="active"
-                className="navbar-brand"
                 to="Contact"
                 spy={true}
                 smooth={true}
@@ -159,9 +184,9 @@ class NavBar extends Component {
               >
                 <Span>Contact</Span>
               </Link>
-            </li>
+            </Litag>
           </Ultag>
-        </div>
+        </NavList>
       </NavDiv>
     );
   }

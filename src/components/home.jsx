@@ -7,9 +7,8 @@ const HomeDiv = styled.div`
   height: 99vh;
   background-color: #0d1522;
   color: #f4fdfb;
-  position: relative;
 `;
-const H2 = styled.h2`
+const H4 = styled.h4`
   margin: 0;
   position: absolute;
   top: 55%;
@@ -28,7 +27,8 @@ class Home extends Component {
         "Node.js",
         "Express.js",
         "MySQL",
-        "PostgreSQL"
+        "PostgreSQL",
+        "how to work with team"
       ],
       typeSpeed: 150,
       startDelay: 500,
@@ -44,23 +44,25 @@ class Home extends Component {
   render() {
     return (
       <HomeDiv>
-        <H2 className="page-2-h4">
+        <H4>
           <p>
             <strong>Jinho Myung🏋🏻‍♀️</strong>
           </p>
           <p>
+            I know &nbsp;
+            <strong
+              id="typed"
+              style={{ whiteSpace: "pre" }}
+              ref={el => {
+                this.el = el;
+              }}
+            ></strong>
+            👨🏻‍💻
+          </p>
+          <p>
             <strong>Full Stack Developer🚀</strong>
           </p>
-          👨🏻‍💻I know &nbsp;
-          <strong
-            id="typed"
-            style={{ whiteSpace: "pre" }}
-            ref={el => {
-              this.el = el;
-            }}
-          ></strong>
-          👊🏻
-        </H2>
+        </H4>
       </HomeDiv>
     );
   }
