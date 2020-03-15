@@ -8,7 +8,7 @@ const TechStackDiv = styled.div`
   color: #1a1a1a;
   padding: 5%;
   @media (max-width: 640px) {
-    height: 120vh;
+    height: 130vh;
   }
 `;
 const TectStackContainer = styled.div`

@@ -9,7 +9,7 @@ const AboutDiv = styled.div`
   padding: 5rem 0rem;
   @media (max-width: 640px) {
     padding: 2rem 0rem;
-    height: 130vh;
+    height: 140vh;
   }
 `;
 const AboutMeContainer = styled.div`
@@ -74,7 +74,7 @@ const P = styled.p`
 const Title = styled.div`
   font-size: 2.5rem;
   margin: 1%;
-  width: 50%;
+  width: 100%;
 `;
 const AboutMe = () => {
   return (
