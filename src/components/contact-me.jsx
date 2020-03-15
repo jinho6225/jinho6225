@@ -4,11 +4,11 @@ import styled from "styled-components";
 const ContactDiv = styled.div`
   width: 100%;
   height: 99vh;
-  background-color: #0d1522;
-  color: #f4fdfb;
+  background-color: #fefbf8;
+  color: #1a1a1a;
 `;
 
 const ContactMe = () => {
-  return <ContactDiv>contact me</ContactDiv>;
+  return <ContactDiv>contact</ContactDiv>;
 };
 export default ContactMe;

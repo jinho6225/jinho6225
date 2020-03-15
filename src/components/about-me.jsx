@@ -3,12 +3,165 @@ import styled from "styled-components";
 
 const AboutDiv = styled.div`
   width: 100%;
-  height: 99vh;
-  background-color: #0d1522;
-  color: #f4fdfb;
+  height: 75vh;
+  background-color: #fef7f1;
+  color: #1a1a1a;
+  padding: 5rem 0rem;
+  @media (max-width: 640px) {
+    padding: 2rem 0rem;
+    height: 130vh;
+  }
 `;
-
+const AboutMeContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  max-width: 820px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  @media (max-width: 640px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+`;
+const PictureBox = styled.div`
+  width: 35%;
+  padding: 3%;
+  margin-top: 2%;
+  @media (max-width: 640px) {
+    width: 50%;
+  }
+`;
+const Pic = styled.img`
+  padding: 2%;
+  margin: 5% 0;
+  width: 100%;
+  object-fit: contain;
+`;
+const List = styled.div``;
+const ContentBox = styled.div`
+  width: 65%;
+  padding: 3%;
+  @media (max-width: 640px) {
+    width: 80%;
+    padding: 5%;
+  }
+`;
+const A = styled.a`
+  display: inline-block;
+  color: #1a1a1a;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid gray;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    font-size: 1.3rem;
+  }
+`;
+const P = styled.p`
+  font-size: 1.2rem;
+  animation: slide-in-10 0.75s;
+  animation-fill-mode: forwards;
+`;
+const Title = styled.div`
+  font-size: 2.5rem;
+  margin: 1%;
+  width: 50%;
+`;
 const AboutMe = () => {
-  return <AboutDiv>about me</AboutDiv>;
+  return (
+    <AboutDiv>
+      <AboutMeContainer>
+        <PictureBox>
+          <div>
+            <Pic src="/assets/profile.jpg" alt="" />
+          </div>
+          <List>
+            <div className="my-3 d-flex justify-content-center fade-in slide-in-10">
+              <A
+                href="https://github.com/jinho6225"
+                target="_blank"
+                className="decoration-none default-nav contact-github pointer mr-2"
+                aria-label="Github"
+              >
+                <div className="border-div-small d-flex">
+                  <i className="fab fa-github"></i>
+                </div>
+              </A>
+              <A
+                href="https://www.linkedin.com/in/jinho6225"
+                target="_blank"
+                className="decoration-none default-nav contact-linkedin pointer mr-2"
+                aria-label="LinkedIn"
+              >
+                <div className="border-div-small d-flex">
+                  <i className="fab fa-linkedin"></i>
+                </div>
+              </A>
+              <A
+                href="https://jinho6225.github.io/"
+                target="_blank"
+                className="decoration-none default-nav contact-general pointer mr-2"
+                aria-label="Blog"
+              >
+                <div className="border-div-small d-flex">
+                  <i className="fas fa-rocket"></i>
+                </div>
+              </A>
+              <A
+                href="mailto:jinho6225@hotmail.com"
+                target="_blank"
+                className="decoration-none default-nav contact-general pointer mr-2"
+                aria-label="Email"
+              >
+                <div className="border-div-small d-flex">
+                  <i
+                    className="far fa-envelope small-font m-auto"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+              </A>
+              <A
+                href="/assets/Jinho_Myung.pdf"
+                target="_blank"
+                className="decoration-none default-nav contact-general pointer"
+                aria-label="Resume Download"
+                download=""
+              >
+                <div className="border-div-small d-flex">
+                  <i className="far fa-file-alt" aria-hidden="true"></i>
+                </div>
+              </A>
+            </div>
+          </List>
+        </PictureBox>
+        <ContentBox>
+          <Title>About Me</Title>
+          <P>
+            Hello! I'm Jinho, a full stack software engineer who like a
+            challenge.
+          </P>
+          <P>
+            My coding journey began when I realized that I wanted to invent
+            solutions for life's everyday problems. I enjoy the logic of solving
+            coding challenges by splitting a big problem into smaller tasks and
+            like to make a plan for step by step.
+          </P>
+          <P>
+            When I'm not coding, I'm spending my free time either work out for
+            crossfit or reading a book
+          </P>
+        </ContentBox>
+      </AboutMeContainer>
+    </AboutDiv>
+  );
 };
 export default AboutMe;

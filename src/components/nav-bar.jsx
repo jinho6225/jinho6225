@@ -6,15 +6,15 @@ let Link = Scroll.Link;
 
 const NavDiv = styled.div`
   width: 100%;
-  background-color: #17253a;
-  color: #f4fdfb;
+  background-color: #fef4ea;
+  color: #3c3c3c;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5%;
+  padding: 0 3%;
   position: fixed;
   top: 0;
-  @media (max-width: 576px) {
+  @media (max-width: 640px) {
     padding: 1% 5%;
     flex-direction: column;
   }
@@ -23,7 +23,7 @@ const Title = styled.div`
   font-size: 2rem;
   margin: 1%;
   width: 50%;
-  @media (max-width: 576px) {
+  @media (max-width: 640px) {
     width: 100%;
     margin-left: 2%;
     padding: 1%;
@@ -33,7 +33,7 @@ const NavList = styled.div`
   font-size: 1rem;
   margin: 1%;
   width: 50%;
-  @media (max-width: 576px) {
+  @media (max-width: 640px) {
     width: 100%;
     margin-left: 2%;
     padding: 1%;
@@ -48,27 +48,38 @@ const Ultag = styled.ul`
   width: 100%;
   list-style-type: none;
   cursor: pointer;
-  @media (max-width: 576px) {
+  @media (max-width: 640px) {
     flex-direction: column;
     justify-content: center;
   }
 `;
 const Litag = styled.li`
   margin: 0 2%;
-  @media (max-width: 576px) {
+  @media (max-width: 640px) {
     margin: 0.5% 2%;
   }
 `;
 const H4 = styled.h4`
   font-weight: 900;
-  color: white;
+  color: 3c3c3c;
   text-shadow: 1px 1px 2px black, 0 0 25px pink, 0 0 5px yellow;
   margin: 0;
+  transition: font-size 1s;
+  &:hover {
+    font-size: 1.8rem;
+  }
 `;
 const Span = styled.span`
-  font-size: 1rem;
-  color: white;
+  font-size: 1.1rem;
+  color: 3c3c3c;
   text-shadow: 1px 1px 2px black, 0 0 25px pink;
+  &:hover {
+    font-size: 1.3rem;
+    text-decoration: underline;
+  }
+`;
+const A = styled(Link)`
+  cursor: pointer;
 `;
 
 class NavBar extends Component {
@@ -76,13 +87,13 @@ class NavBar extends Component {
     return (
       <NavDiv>
         <Title>
-          <Link
+          <A
             activeClass="active"
             to="Home"
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={10}
+            offset={5}
             duration={500}
             delay={500}
             isDynamic={true}
@@ -91,18 +102,18 @@ class NavBar extends Component {
             ignoreCancelEvents={false}
           >
             <H4>Jinho Myung🔥</H4>
-          </Link>
+          </A>
         </Title>
         <NavList>
           <Ultag>
             <Litag>
-              <Link
+              <A
                 activeClass="active"
                 to="Home"
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={10}
+                offset={5}
                 duration={500}
                 delay={500}
                 isDynamic={true}
@@ -111,16 +122,16 @@ class NavBar extends Component {
                 ignoreCancelEvents={false}
               >
                 <Span>Home</Span>
-              </Link>
+              </A>
             </Litag>
             <Litag>
-              <Link
+              <A
                 activeClass="active"
                 to="Applications"
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={10}
+                offset={5}
                 duration={500}
                 delay={500}
                 isDynamic={true}
@@ -129,16 +140,16 @@ class NavBar extends Component {
                 ignoreCancelEvents={false}
               >
                 <Span>Applications</Span>
-              </Link>
+              </A>
             </Litag>
             <Litag>
-              <Link
+              <A
                 activeClass="active"
-                to="TechSkill"
+                to="TechStack"
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={10}
+                offset={5}
                 duration={500}
                 delay={500}
                 isDynamic={true}
@@ -146,17 +157,17 @@ class NavBar extends Component {
                 onSetInactive={this.handleSetInactive}
                 ignoreCancelEvents={false}
               >
-                <Span>TechSkill</Span>
-              </Link>
+                <Span>TechStacks</Span>
+              </A>
             </Litag>
             <Litag>
-              <Link
+              <A
                 activeClass="active"
                 to="About"
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={10}
+                offset={5}
                 duration={500}
                 delay={500}
                 isDynamic={true}
@@ -165,16 +176,16 @@ class NavBar extends Component {
                 ignoreCancelEvents={false}
               >
                 <Span>About</Span>
-              </Link>
+              </A>
             </Litag>
             <Litag>
-              <Link
+              <A
                 activeClass="active"
                 to="Contact"
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={10}
+                offset={5}
                 duration={500}
                 delay={500}
                 isDynamic={true}
@@ -183,7 +194,7 @@ class NavBar extends Component {
                 ignoreCancelEvents={false}
               >
                 <Span>Contact</Span>
-              </Link>
+              </A>
             </Litag>
           </Ultag>
         </NavList>

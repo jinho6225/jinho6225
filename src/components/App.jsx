@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import Scroll from "react-scroll";
 import Applications from "./applications.jsx";
-import TechSkill from "./teck-stack.jsx";
+import TechStack from "./teck-stack.jsx";
 import ContactMe from "./contact-me.jsx";
 import AboutMe from "./about-me.jsx";
 import NavBar from "./nav-bar.jsx";
@@ -23,8 +23,8 @@ class App extends Component {
         <Element name="Applications">
           <Applications />
         </Element>
-        <Element name="TechSkill">
-          <TechSkill />
+        <Element name="TechStack">
+          <TechStack />
         </Element>
         <Element name="About">
           <AboutMe />
