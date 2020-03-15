@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const AboutDiv = styled.div`
   width: 100%;
-  height: 75vh;
+  height: 100vh;
   background-color: #fef7f1;
   color: #1a1a1a;
   padding: 5rem 0rem;
@@ -39,8 +39,12 @@ const Pic = styled.img`
   margin: 5% 0;
   width: 100%;
   object-fit: contain;
+  border-radius: 25px;
 `;
-const List = styled.div``;
+const List = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 const ContentBox = styled.div`
   width: 65%;
   padding: 3%;
@@ -52,18 +56,14 @@ const ContentBox = styled.div`
 const A = styled.a`
   display: inline-block;
   color: #1a1a1a;
-  text-align: center;
-  vertical-align: middle;
   cursor: pointer;
   border: 1px solid gray;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  line-height: 1.5;
+  padding: 0.1rem 0.3rem;
   border-radius: 0.25rem;
   text-decoration: none;
+  margin: 0 0.1rem;
   &:hover {
     text-decoration: underline;
-    font-size: 1.3rem;
   }
 `;
 const P = styled.p`
@@ -76,6 +76,7 @@ const Title = styled.div`
   margin: 1%;
   width: 100%;
 `;
+
 const AboutMe = () => {
   return (
     <AboutDiv>
@@ -85,75 +86,67 @@ const AboutMe = () => {
             <Pic src="/assets/profile.jpg" alt="" />
           </div>
           <List>
-            <div className="my-3 d-flex justify-content-center fade-in slide-in-10">
-              <A
-                href="https://github.com/jinho6225"
-                target="_blank"
-                className="decoration-none default-nav contact-github pointer mr-2"
-                aria-label="Github"
-              >
-                <div className="border-div-small d-flex">
-                  <i className="fab fa-github"></i>
-                </div>
-              </A>
-              <A
-                href="https://www.linkedin.com/in/jinho6225"
-                target="_blank"
-                className="decoration-none default-nav contact-linkedin pointer mr-2"
-                aria-label="LinkedIn"
-              >
-                <div className="border-div-small d-flex">
-                  <i className="fab fa-linkedin"></i>
-                </div>
-              </A>
-              <A
-                href="https://jinho6225.github.io/"
-                target="_blank"
-                className="decoration-none default-nav contact-general pointer mr-2"
-                aria-label="Blog"
-              >
-                <div className="border-div-small d-flex">
-                  <i className="fas fa-rocket"></i>
-                </div>
-              </A>
-              <A
-                href="mailto:jinho6225@hotmail.com"
-                target="_blank"
-                className="decoration-none default-nav contact-general pointer mr-2"
-                aria-label="Email"
-              >
-                <div className="border-div-small d-flex">
-                  <i
-                    className="far fa-envelope small-font m-auto"
-                    aria-hidden="true"
-                  ></i>
-                </div>
-              </A>
-              <A
-                href="/assets/Jinho_Myung.pdf"
-                target="_blank"
-                className="decoration-none default-nav contact-general pointer"
-                aria-label="Resume Download"
-                download=""
-              >
-                <div className="border-div-small d-flex">
-                  <i className="far fa-file-alt" aria-hidden="true"></i>
-                </div>
-              </A>
-            </div>
+            <A
+              href="https://github.com/jinho6225"
+              target="_blank"
+              aria-label="Github"
+            >
+              <div>
+                <i className="fab fa-github"></i>
+              </div>
+            </A>
+            <A
+              href="https://www.linkedin.com/in/jinho6225"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <div>
+                <i className="fab fa-linkedin"></i>
+              </div>
+            </A>
+            <A
+              href="https://jinho6225.github.io/"
+              target="_blank"
+              aria-label="Blog"
+            >
+              <div>
+                <i className="fas fa-rocket"></i>
+              </div>
+            </A>
+            <A
+              href="mailto:jinho6225@hotmail.com"
+              target="_blank"
+              aria-label="Email"
+            >
+              <div>
+                <i
+                  className="far fa-envelope small-font"
+                  aria-hidden="true"
+                ></i>
+              </div>
+            </A>
+            <A
+              href="/assets/Jinho_Myung.pdf"
+              target="_blank"
+              aria-label="Resume Download"
+            >
+              <div>
+                <i className="far fa-file-alt" aria-hidden="true"></i>
+              </div>
+            </A>
           </List>
         </PictureBox>
         <ContentBox>
           <Title>About Me</Title>
           <P>
             Hello! I'm Jinho, a full stack software engineer who like a
-            challenge.
+            challenge🔥
           </P>
           <P>
             My coding journey began when I realized that I wanted to invent
             solutions for life's everyday problems. I enjoy the logic of solving
             coding challenges by splitting a big problem into smaller tasks and
-            like to make a plan for step by step.
+            like to make a plan for step by step
           </P>
           <P>
             When I'm not coding, I'm spending my free time either work out for

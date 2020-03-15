@@ -6,8 +6,8 @@ let Link = Scroll.Link;
 
 const NavDiv = styled.div`
   width: 100%;
-  background-color: #fef4ea;
-  color: #3c3c3c;
+  background-color: #fef7f1;
+  color: #1a1a1a;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,7 +64,7 @@ const H4 = styled.h4`
   color: 3c3c3c;
   text-shadow: 1px 1px 2px black, 0 0 25px pink, 0 0 5px yellow;
   margin: 0;
-  transition: font-size 1s;
+  transition: font-size 0.3s;
   &:hover {
     font-size: 1.8rem;
   }
@@ -73,6 +73,7 @@ const Span = styled.span`
   font-size: 1.1rem;
   color: 3c3c3c;
   text-shadow: 1px 1px 2px black, 0 0 25px pink;
+  transition: font-size 0.3s;
   &:hover {
     font-size: 1.3rem;
     text-decoration: underline;

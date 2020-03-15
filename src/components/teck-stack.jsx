@@ -35,7 +35,7 @@ const TechDeck = styled.div`
 `;
 const Tech = styled.div`
   padding: 1% 1%;
-  margin: 1% 1%;
+  margin: 1% 0.5%;
 `;
 const Img = styled.img`
   width: 64px;
@@ -219,7 +219,7 @@ const TechStack = () => {
               <P>Trello</P>
             </Tech>
             <Tech>
-              <Img src="/assets/figma.png" id="figma" />
+              <Img src="https://cdn.svgporn.com/logos/figma.svg" id="figma" />
               <P>figma</P>
             </Tech>
           </TechDeck>

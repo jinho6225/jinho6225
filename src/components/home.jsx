@@ -30,6 +30,7 @@ const A = styled.a`
   text-decoration: none;
   &:hover {
     text-decoration: underline;
+    font-size: 1.2rem;
   }
 `;
 
