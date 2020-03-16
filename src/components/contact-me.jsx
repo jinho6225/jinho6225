@@ -154,7 +154,7 @@ const ContactMe = () => {
                 </Icon>
               </A>
               <A
-                href="/assets/Jinho_Myung.pdf"
+                href="/dist/assets/Jinho_Myung.pdf"
                 target="_blank"
                 aria-label="Resume Download"
               >
