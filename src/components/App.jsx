@@ -19,31 +19,53 @@ class App extends Component {
           link: "http://react-flash-card.jinho6225.com",
           title: "Flash-Card",
           github: "https://github.com/jinho6225/react-flash-cards-pt",
-          id: 1
+          desc:
+            "Aliquip sit eu amet nulla id veniam amet ut voluptate ullamco velit. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.",
+          id: 1,
+          stack: ["React.js", "Bootstrap", "HTML", "CSS", "localStorage"]
         },
         {
           link: "http://vanillaJS.jinho6225.com",
           title: "TodoList-Clock-Weather",
           github: "https://github.com/jinho6225/vanillaJS",
-          id: 2
+          desc:
+            "Aliquip sit eu amet nulla id veniam amet ut voluptate ullamco velit. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.",
+          id: 2,
+          stack: ["JavaScript", "HTML", "localStorage", "openSourceAPI", "CSS"]
         },
         {
           link: "http://pororo-memory-match.jinho6225.com",
           title: "PoRoRo-Memory-match",
           github: "https://github.com/jinho6225/PororoMemoryMatch",
-          id: 3
+          desc:
+            "Aliquip sit eu amet nulla id veniam amet ut voluptate ullamco velit. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.",
+          id: 3,
+          stack: ["JavaScript", "HTML", "CSS", "Flexbox"]
         },
         {
           link: "http://gradetable.jinho6225.com",
           title: "Student-Grade-Table",
           github: "https://github.com/jinho6225/student-grade-table",
-          id: 4
+          desc:
+            "Aliquip sit eu amet nulla id veniam amet ut voluptate ullamco velit. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.",
+          id: 4,
+          stack: [
+            "React.js",
+            "Bootstrap",
+            "styledComponents",
+            "Node.js",
+            "Express",
+            "MySQL"
+          ]
         },
         {
           link: "http://webapp.jinho6225.com",
           title: "Simple webapp",
           github: "https://github.com/jinho6225/webApp-node.js",
-          id: 5
+          desc:
+            "Aliquip sit eu amet nulla id veniam amet ut voluptate ullamco velit. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.",
+          id: 5,
+          stack: ["Node.js", "Bootstrap"]
         }
       ]
     };

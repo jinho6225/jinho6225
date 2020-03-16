@@ -24,6 +24,7 @@ const Section = styled(Title)`
 const ContactkBox = styled.div`
   width: 100%;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   padding: 1%;
 `;
@@ -81,6 +82,8 @@ const RunningBox = styled.div`
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  justify-content: center;
 `;
 const Box = styled.div`
   width: 100%;
@@ -94,6 +97,7 @@ const RunningChildBox = styled.div`
   justify-content: center;
   color: #1a1a1a;
   background-color: #fefbf8;
+  width: 80%;
 `;
 
 const ContactMe = () => {
@@ -101,11 +105,7 @@ const ContactMe = () => {
     <ContactDiv>
       <ContactContainer>
         <Title>
-          <h1>
-            Thanks
-            <br />
-            for visiting me!
-          </h1>
+          <h1>Thanks!</h1>
         </Title>
         <ContactkBox>
           <Title>

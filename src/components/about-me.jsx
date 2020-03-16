@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const AboutDiv = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background-color: #fef7f1;
   color: #1a1a1a;
   padding: 5rem 0rem;
