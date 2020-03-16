@@ -84,22 +84,22 @@ const TechStack = () => {
               <P>React</P>
             </Tech>
             <Tech>
-              <Img src="dist/assets/jquery.png" id="jquery" />
+              <Img src="/dist/assets/jquery.png" id="jquery" />
               <P>jQuery</P>
             </Tech>
             <Tech>
-              <Img src="dist/assets/Bootstrap.png" id="Bootstrap" />
+              <Img src="/dist/assets/Bootstrap.png" id="Bootstrap" />
               <P>Bootstrap</P>
             </Tech>
             <Tech>
               <Img
-                src="dist/assets/styled-components.png"
+                src="/dist/assets/styled-components.png"
                 id="styled-components"
               />
               <P>styled...</P>
             </Tech>
             <Tech>
-              <Img src="dist/assets/sass.png" id="Sass" />
+              <Img src="/dist/assets/sass.png" id="Sass" />
               <P>Sass</P>
             </Tech>
           </TechDeck>
@@ -122,7 +122,7 @@ const TechStack = () => {
               <P>Express</P>
             </Tech>
             <Tech>
-              <Img src="dist/assets/php.png" id="php" />
+              <Img src="/dist/assets/php.png" id="php" />
               <P>php</P>
             </Tech>
             <Tech>
@@ -161,7 +161,7 @@ const TechStack = () => {
               <P>NGINX</P>
             </Tech>
             <Tech>
-              <Img src="dist/assets/docker.png" id="Docker" />
+              <Img src="/dist/assets/docker.png" id="Docker" />
               <P>Docker</P>
             </Tech>
             <Tech>
@@ -188,7 +188,7 @@ const TechStack = () => {
               <P>Git</P>
             </Tech>
             <Tech>
-              <Img src="dist/assets/github.svg" id="git" />
+              <Img src="/dist/assets/github.svg" id="git" />
               <P>Github</P>
             </Tech>
             <Tech>
