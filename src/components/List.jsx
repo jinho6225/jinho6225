@@ -1,18 +1,23 @@
-import React from 'react';
-import Entry from './Entry.jsx'
+import React from "react";
+import Entry from "./entry.jsx";
+import styled from "styled-components";
 
-const List = (props) => {
-  const { portfolioArr } = props
-    return (
-      <div>
-        <h3>please check links below</h3>
-        <ul>
-          {portfolioArr.map((el, i) => {
-            return <Entry portfolio={el} key={el.id}/>
-          })}
-        </ul>
-      </div>
-    )
-}
+const ApplicationRow = styled.div`
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+`;
+
+const List = props => {
+  const { portfolioArr } = props;
+  return (
+    <ApplicationRow>
+      {portfolioArr.map((portfolio, i) => {
+        return <Entry portfolio={portfolio} key={i} />;
+      })}
+    </ApplicationRow>
+  );
+};
 
 export default List;
