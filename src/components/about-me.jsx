@@ -83,7 +83,7 @@ const AboutMe = () => {
       <AboutMeContainer>
         <PictureBox>
           <div>
-            <Pic src="/assets/profile.jpg" alt="" />
+            <Pic src="/dist/assets/profile.jpg" alt="" />
           </div>
           <List>
             <A
