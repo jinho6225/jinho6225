@@ -18,7 +18,7 @@ const ApplicationDiv = styled.div`
     height: 370vh;
   }
   @media (max-width: 540px) {
-    height: 370vh;
+    height: 430vh;
   }
 `;
 const Title = styled.div`
