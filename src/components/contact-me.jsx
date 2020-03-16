@@ -18,7 +18,9 @@ const Title = styled.div`
   justify-content: center;
   padding: 1rem 0rem;
 `;
-const Section = styled(Title)``;
+const Section = styled(Title)`
+  margin-top: 1.5rem;
+`;
 const ContactkBox = styled.div`
   width: 100%;
   display: flex;
@@ -86,6 +88,7 @@ const Box = styled.div`
   border: 0.5px solid #1a1a1a;
 `;
 const RunningChildBox = styled.div`
+  margin-top: 1rem;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -98,20 +101,24 @@ const ContactMe = () => {
     <ContactDiv>
       <ContactContainer>
         <Title>
-          <h1>Thanks!</h1>
+          <h1>
+            Thanks
+            <br />
+            for visiting me!
+          </h1>
         </Title>
         <ContactkBox>
           <Title>
             <RunningBox>
               <RunningChildBox>
                 <h5>
-                  I really like to learn new thing and challenge it
+                  I really like to learn new thing and challenge it <br />I will
+                  keep learning and eager to learn new skills
+                  <br /> I hope to go further and grow with you together👍🏻
                   <br />
-                  I will keep learning and eager to learn new skills
-                  <br />
-                  I hope to go further with you and grow with your company
-                  together <br />
                 </h5>
+                <br />
+                <br />
                 <br />
                 <Running>ᕕ( ᐛ )ᕗ</Running>
                 <Box></Box>
@@ -160,7 +167,6 @@ const ContactMe = () => {
           <Section>
             <div>Designed and developed by Jinho Myung © 2020</div>
           </Section>
-          <HR></HR>
         </ContactkBox>
       </ContactContainer>
     </ContactDiv>

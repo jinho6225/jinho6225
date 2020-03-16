@@ -144,9 +144,9 @@ const AboutMe = () => {
           </P>
           <P>
             My coding journey began when I realized that I wanted to invent
-            solutions for life's everyday problems. I enjoy the logic of solving
-            coding challenges by splitting a big problem into smaller tasks and
-            like to make a plan for step by step
+            solutions for life's everyday problems. I love to make a plan for
+            step by step and enjoy the logic of solving coding challenges by
+            splitting a big problem into smaller task!😁
           </P>
           <P>
             When I'm not coding, I'm spending my free time either work out for
