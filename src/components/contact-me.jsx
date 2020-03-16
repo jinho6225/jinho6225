@@ -7,6 +7,14 @@ const ContactDiv = styled.div`
   background-color: #fefbf8;
   color: #1a1a1a;
   padding: 5rem 0rem;
+  @media (max-width: 736px) {
+    padding: 2rem 0rem;
+    height: 180vh;
+  }
+  @media (max-width: 640px) {
+    padding: 2rem 0rem;
+    height: 140vh;
+  }
 `;
 const ContactContainer = styled.div`
   display: flex;

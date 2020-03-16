@@ -7,6 +7,9 @@ const TechStackDiv = styled.div`
   background-color: #fefbf8;
   color: #1a1a1a;
   padding: 5%;
+  @media (max-width: 736px) {
+    height: 300vh;
+  }
   @media (max-width: 640px) {
     height: 130vh;
   }

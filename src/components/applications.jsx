@@ -4,21 +4,24 @@ import styled from "styled-components";
 
 const ApplicationDiv = styled.div`
   width: 100%;
-  height: 200vh;
+  height: 220vh;
   background-color: #fef7f1;
   color: #1a1a1a;
   padding: 5%;
   @media (max-width: 1200px) {
-    height: 260vh;
+    height: 320vh;
   }
   @media (max-width: 900px) {
-    height: 400vh;
+    height: 500vh;
+  }
+  @media (max-width: 736px) {
+    height: 800vh;
   }
   @media (max-width: 640px) {
-    height: 370vh;
+    height: 460vh;
   }
   @media (max-width: 540px) {
-    height: 430vh;
+    height: 480vh;
   }
 `;
 const Title = styled.div`

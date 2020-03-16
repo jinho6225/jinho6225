@@ -17,14 +17,19 @@ const ApplicationCol = styled.div`
     height: 51%;
     margin: 2% auto;
   }
+  @media (max-width: 736px) {
+    width: 55%;
+    height: 55%;
+    margin: 2% auto;
+  }
   @media (max-width: 640px) {
     width: 65%;
     height: 65%;
     margin: 2% auto;
   }
   @media (max-width: 540px) {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     margin: 2% auto;
   }
 `;
