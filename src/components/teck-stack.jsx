@@ -1,17 +1,27 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const TechStackDiv = styled.div`
   width: 100%;
-  height: 160vh;
+  height: 200vh;
   background-color: #fefbf8;
   color: #1a1a1a;
   padding: 5%;
+
+  @media (max-width: 900px) {
+    height: 200vh;
+  }
   @media (max-width: 736px) {
+    height: 220vh;
+  }
+  @media (max-width: 736px) and (orientation: landscape) {
     height: 300vh;
   }
   @media (max-width: 640px) {
-    height: 130vh;
+    height: 170vh;
+  }
+  @media (max-width: 540px) {
+    height: 180vh;
   }
 `;
 const TectStackContainer = styled.div`

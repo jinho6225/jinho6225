@@ -1,18 +1,26 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const AboutDiv = styled.div`
   width: 100%;
-  height: 80vh;
+  height: 120vh;
   background-color: #fef7f1;
   color: #1a1a1a;
   padding: 5rem 0rem;
+
+  @media (max-width: 900px) {
+    height: 120vh;
+  }
   @media (max-width: 736px) {
-    padding: 2rem 0rem;
-    height: 180vh;
+    height: 120vh;
+  }
+  @media (max-width: 736px) and (orientation: landscape) {
+    height: 150vh;
   }
   @media (max-width: 640px) {
-    padding: 2rem 0rem;
+    height: 140vh;
+  }
+  @media (max-width: 540px) {
     height: 140vh;
   }
 `;
