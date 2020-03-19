@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const AboutDiv = styled.div`
   width: 100%;
@@ -7,13 +7,23 @@ const AboutDiv = styled.div`
   background-color: #fef7f1;
   color: #1a1a1a;
   padding: 5rem 0rem;
+  @media (max-width: 1200px) {
+    height: 80vh;
+  }
+  @media (max-width: 900px) {
+    height: 80vh;
+  }
   @media (max-width: 736px) {
-    padding: 2rem 0rem;
-    height: 180vh;
+    height: 80vh;
+  }
+  @media (max-width: 736px) and (orientation: landscape) {
+    height: 150vh;
   }
   @media (max-width: 640px) {
-    padding: 2rem 0rem;
-    height: 140vh;
+    height: 100vh;
+  }
+  @media (max-width: 540px) {
+    height: 110vh;
   }
 `;
 const AboutMeContainer = styled.div`

@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const ApplicationCol = styled.div`
   width: 26%;
@@ -7,19 +7,25 @@ const ApplicationCol = styled.div`
   border-radius: 16px;
   margin: 1% 0.5%;
   padding: 0.5rem 0.5rem;
+
   @media (max-width: 1200px) {
-    width: 35%;
-    height: 35%;
+    width: 40%;
+    height: 40%;
     margin: 2% auto;
   }
   @media (max-width: 900px) {
-    width: 51%;
-    height: 51%;
+    width: 45%;
+    height: 45%;
     margin: 2% auto;
   }
   @media (max-width: 736px) {
-    width: 55%;
-    height: 55%;
+    width: 51%;
+    height: 50%;
+    margin: 2% auto;
+  }
+  @media (max-width: 736px) and (orientation: landscape) {
+    width: 40%;
+    height: 40%;
     margin: 2% auto;
   }
   @media (max-width: 640px) {
@@ -50,7 +56,7 @@ const InsideStack = styled.div`
 `;
 const Img = styled.img`
   width: 100%;
-  height: 100%;
+  height: 90%;
   border-radius: 16px;
 `;
 const P1 = styled.p`
@@ -110,7 +116,7 @@ const Entry = props => {
   return (
     <ApplicationCol>
       <TechDiv>
-        <Img src="https://cdn.svgporn.com/logos/javascript.svg" id="js" />
+        <Img src={portfolio.img} id={portfolio.title} />
         <InsideTitle>
           <P1>{portfolio.title}</P1>
         </InsideTitle>

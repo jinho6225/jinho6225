@@ -1,19 +1,29 @@
-import React from "react";
-import styled, { keyframes } from "styled-components";
+import React from 'react';
+import styled, { keyframes } from 'styled-components';
 
 const ContactDiv = styled.div`
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  overflow-x: hidden;
   width: 100%;
-  height: 100vh;
+  height: 101vh;
   background-color: #fefbf8;
   color: #1a1a1a;
   padding: 5rem 0rem;
   @media (max-width: 736px) {
     padding: 2rem 0rem;
-    height: 180vh;
+    height: 100vh;
+  }
+  @media (max-width: 736px) and (orientation: landscape) {
+    height: 200vh;
   }
   @media (max-width: 640px) {
     padding: 2rem 0rem;
-    height: 140vh;
+    height: 120vh;
   }
 `;
 const ContactContainer = styled.div`

@@ -1,27 +1,30 @@
-import React from "react";
-import List from "./list.jsx";
-import styled from "styled-components";
+import React from 'react';
+import List from './list.jsx';
+import styled from 'styled-components';
 
 const ApplicationDiv = styled.div`
   width: 100%;
-  height: 220vh;
+  height: 200vh;
   background-color: #fef7f1;
   color: #1a1a1a;
   padding: 5%;
   @media (max-width: 1200px) {
-    height: 320vh;
+    height: 290vh;
   }
   @media (max-width: 900px) {
-    height: 500vh;
+    height: 290vh;
   }
   @media (max-width: 736px) {
-    height: 800vh;
+    height: 420vh;
+  }
+  @media (max-width: 736px) and (orientation: landscape) {
+    height: 480vh;
   }
   @media (max-width: 640px) {
-    height: 460vh;
+    height: 420vh;
   }
   @media (max-width: 540px) {
-    height: 480vh;
+    height: 420vh;
   }
 `;
 const Title = styled.div`

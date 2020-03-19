@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const TechStackDiv = styled.div`
   width: 100%;
@@ -7,10 +7,22 @@ const TechStackDiv = styled.div`
   background-color: #fefbf8;
   color: #1a1a1a;
   padding: 5%;
+  @media (max-width: 1200px) {
+    height: 180vh;
+  }
+  @media (max-width: 900px) {
+    height: 180vh;
+  }
   @media (max-width: 736px) {
+    height: 180vh;
+  }
+  @media (max-width: 736px) and (orientation: landscape) {
     height: 300vh;
   }
   @media (max-width: 640px) {
+    height: 130vh;
+  }
+  @media (max-width: 540px) {
     height: 130vh;
   }
 `;
