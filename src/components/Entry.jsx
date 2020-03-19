@@ -7,15 +7,9 @@ const ApplicationCol = styled.div`
   border-radius: 16px;
   margin: 1% 0.5%;
   padding: 0.5rem 0.5rem;
-
-  @media (max-width: 1200px) {
-    width: 40%;
-    height: 40%;
-    margin: 2% auto;
-  }
   @media (max-width: 900px) {
-    width: 45%;
-    height: 45%;
+    width: 35%;
+    height: 35%;
     margin: 2% auto;
   }
   @media (max-width: 736px) {

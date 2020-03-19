@@ -10,20 +10,20 @@ const ContactDiv = styled.div`
   overflow: auto;
   overflow-x: hidden;
   width: 100%;
-  height: 101vh;
+  height: 120vh;
   background-color: #fefbf8;
   color: #1a1a1a;
   padding: 5rem 0rem;
   @media (max-width: 736px) {
     padding: 2rem 0rem;
-    height: 100vh;
+    height: 120vh;
   }
   @media (max-width: 736px) and (orientation: landscape) {
     height: 200vh;
   }
   @media (max-width: 640px) {
     padding: 2rem 0rem;
-    height: 120vh;
+    height: 140vh;
   }
 `;
 const ContactContainer = styled.div`

@@ -3,27 +3,25 @@ import styled from 'styled-components';
 
 const AboutDiv = styled.div`
   width: 100%;
-  height: 80vh;
+  height: 120vh;
   background-color: #fef7f1;
   color: #1a1a1a;
   padding: 5rem 0rem;
-  @media (max-width: 1200px) {
-    height: 80vh;
-  }
+
   @media (max-width: 900px) {
-    height: 80vh;
+    height: 120vh;
   }
   @media (max-width: 736px) {
-    height: 80vh;
+    height: 120vh;
   }
   @media (max-width: 736px) and (orientation: landscape) {
     height: 150vh;
   }
   @media (max-width: 640px) {
-    height: 100vh;
+    height: 140vh;
   }
   @media (max-width: 540px) {
-    height: 110vh;
+    height: 140vh;
   }
 `;
 const AboutMeContainer = styled.div`
