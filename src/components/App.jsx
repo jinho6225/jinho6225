@@ -32,7 +32,13 @@ class App extends Component {
           desc: `Used local-storage to store user name and todo list, Used Open source API for openweathermap & unsplash.
             based on time, it will greet morning, afternoon, evening and based on weather condition, background image will be decided.`,
           id: 2,
-          stack: ['JavaScript', 'HTML', 'localStorage', 'openSourceAPI', 'CSS'],
+          stack: [
+            'JavaScript',
+            'HTML5',
+            'localStorage',
+            'openSourceAPI',
+            'CSS3'
+          ],
           img: `dist/assets/todoClockWeather.gif`
         },
         {
@@ -40,9 +46,9 @@ class App extends Component {
           title: 'PoRoRo-Memory-match',
           github: 'https://github.com/jinho6225/PororoMemoryMatch',
           desc:
-            'Aliquip sit eu amet nulla id veniam amet ut voluptate ullamco velit. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.',
+            'A JavaScript memory matching application based on the pororo animation.',
           id: 3,
-          stack: ['JavaScript', 'HTML', 'CSS', 'Flexbox'],
+          stack: ['JavaScript', 'HTML5', 'CSS3', 'Flexbox'],
           img: `dist/assets/pororoMemoryMatch.png`
         },
         {
