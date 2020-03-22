@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const ApplicationCol = styled.div`
   width: 26%;
+  height: 100%;
   border: 1px solid #d5d5d5;
   border-radius: 16px;
   margin: 1% 0.5%;
