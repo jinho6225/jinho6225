@@ -43,7 +43,7 @@ class App extends Component {
             'Aliquip sit eu amet nulla id veniam amet ut voluptate ullamco velit. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.',
           id: 3,
           stack: ['JavaScript', 'HTML', 'CSS', 'Flexbox'],
-          img: `https://cdn.svgporn.com/logos/javascript.svg`
+          img: `dist/assets/pororoMemoryMatch.png`
         },
         {
           link: 'http://gradetable.jinho6225.com',
