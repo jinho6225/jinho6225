@@ -20,7 +20,7 @@ class App extends Component {
           title: 'Flash-Card',
           github: 'https://github.com/jinho6225/react-flash-cards-pt',
           desc:
-            'Aliquip sit eu amet nulla id veniam amet ut voluptate ullamco velit. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.',
+            'Aliquip sit eu amet nulla id veniam it. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.',
           id: 1,
           stack: ['React.js', 'Bootstrap', 'HTML', 'CSS', 'localStorage'],
           img: `https://cdn.svgporn.com/logos/javascript.svg`
@@ -56,7 +56,7 @@ class App extends Component {
           title: 'Student-Grade-Table',
           github: 'https://github.com/jinho6225/student-grade-table',
           desc:
-            'Aliquip sit eu amet nulla id veniam amet ut voluptate ullamco velit. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.',
+            'Aliquip sitate ullamco velit. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.',
           id: 4,
           stack: [
             'React.js',
@@ -73,7 +73,7 @@ class App extends Component {
           title: 'Simple webapp',
           github: 'https://github.com/jinho6225/webApp-node.js',
           desc:
-            'Aliquip sit eu amet nulla id veniam amet ut voluptate ullamco velit. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.',
+            'Aliquip sit eu amet nulla id veniam amet ut voluptate ullamcute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.',
           id: 5,
           stack: ['Node.js', 'Bootstrap'],
           img: `https://cdn.svgporn.com/logos/javascript.svg`

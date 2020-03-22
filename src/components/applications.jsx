@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const ApplicationDiv = styled.div`
   width: 100%;
-  height: 245vh;
+  height: 225vh;
   background-color: #fef7f1;
   color: #1a1a1a;
   padding: 5%;
