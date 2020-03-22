@@ -1,5 +1,5 @@
 import React from "react";
-import Entry from "./entry.jsx";
+import Entry from "./Entry.jsx";
 import styled from "styled-components";
 
 const ApplicationRow = styled.div`
