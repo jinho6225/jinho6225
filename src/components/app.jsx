@@ -48,7 +48,7 @@ class App extends Component {
             'Express.js',
             'AWS EC2',
           ],
-          img: `dist/assets/pata4.gif`,
+          img: `dist/assets/pata1.gif`,
         },
         {
           link: 'https://bnb.jeff-j.me',
@@ -97,7 +97,7 @@ class App extends Component {
             'A JavaScript memory matching application based on the pororo animation.',
           id: 5,
           stack: ['JavaScript', 'HTML5', 'CSS3', 'Flexbox'],
-          img: `dist/assets/pororoMemoryMatch.png`,
+          img: `dist/assets/pororo.gif`,
         },
       ],
     };
