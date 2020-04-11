@@ -3,25 +3,19 @@ import styled from 'styled-components';
 
 const AboutDiv = styled.div`
   width: 100%;
-  height: 120vh;
-  background-color: #fef7f1;
-  color: #1a1a1a;
+  background-color: #1a1a1a;
+  color: #fef7f1;
   padding: 5rem 0rem;
 
   @media (max-width: 900px) {
-    height: 120vh;
   }
   @media (max-width: 736px) {
-    height: 120vh;
   }
   @media (max-width: 736px) and (orientation: landscape) {
-    height: 150vh;
   }
   @media (max-width: 640px) {
-    height: 140vh;
   }
   @media (max-width: 540px) {
-    height: 140vh;
   }
 `;
 const AboutMeContainer = styled.div`
@@ -67,7 +61,7 @@ const ContentBox = styled.div`
 `;
 const A = styled.a`
   display: inline-block;
-  color: #1a1a1a;
+  color: #fef7f1;
   cursor: pointer;
   border: 1px solid gray;
   padding: 0.1rem 0.3rem;

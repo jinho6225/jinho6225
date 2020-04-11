@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import styled from "styled-components";
-import Typed from "typed.js";
+import React, { Component } from 'react';
+import styled from 'styled-components';
+import Typed from 'typed.js';
 
 const HomeDiv = styled.div`
   width: 100%;
-  height: 99vh;
   background-color: #fefbf8;
   color: #1a1a1a;
+  height: 99vh;
 `;
 const H4 = styled.h4`
   margin: 0;
@@ -38,23 +38,24 @@ class Home extends Component {
   componentDidMount() {
     const options = {
       strings: [
-        "HTML5",
-        "CSS3",
-        "React.js",
-        "JavaScript",
-        "ES6",
-        "jQuery",
-        "Node.js",
-        "Express.js",
-        "MySQL",
-        "PostgreSQL",
-        "how to work with team"
+        'HTML5',
+        'CSS3',
+        'Sass',
+        'React.js',
+        'Styled Component',
+        'JavaScript',
+        'ES6',
+        'Node.js',
+        'Express.js',
+        'MySQL',
+        'PostgreSQL',
+        'how to work with team',
       ],
       typeSpeed: 150,
       startDelay: 500,
       backSpeed: 100,
       backDelay: 1000,
-      loop: true
+      loop: true,
     };
     this.typed = new Typed(this.el, options);
   }
@@ -72,8 +73,8 @@ class Home extends Component {
             I know &nbsp;
             <strong
               id="typed"
-              style={{ whiteSpace: "pre" }}
-              ref={el => {
+              style={{ whiteSpace: 'pre' }}
+              ref={(el) => {
                 this.el = el;
               }}
             ></strong>

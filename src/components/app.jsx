@@ -16,40 +16,61 @@ class App extends Component {
     this.state = {
       portfolioArr: [
         {
-          link: 'http://react-flash-card.jinho6225.com',
+          link: 'https://flash-card.jinho6225.com',
           title: 'Flash-Card',
-          github: 'https://github.com/jinho6225/react-flash-cards-pt',
-          desc:
-            'Aliquip sit eu amet nulla id veniam it. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.',
+          github: 'https://github.com/jinho6225/flash-card',
+          desc: 'A Dynamic Flash Card, responsive web App built with React.js.',
           id: 1,
-          stack: ['React.js', 'Bootstrap', 'HTML', 'CSS', 'localStorage'],
-          img: `https://cdn.svgporn.com/logos/javascript.svg`
-        },
-        {
-          link: 'http://vanillaJS.jinho6225.com',
-          title: 'TodoList-Clock-Weather',
-          github: 'https://github.com/jinho6225/vanillaJS',
-          desc: `Used local-storage to store user name and todo list, Used Open source API for openweathermap & unsplash.
-            based on time, it will greet morning, afternoon, evening and based on weather condition, background image will be decided.`,
-          id: 2,
           stack: [
-            'JavaScript',
+            'React.js',
+            'Bootstrap4',
+            'CSS3',
+            'Sass',
             'HTML5',
             'localStorage',
-            'openSourceAPI',
-            'CSS3'
           ],
-          img: `dist/assets/todoClockWeather.gif`
+          img: `dist/assets/flash-card.gif`,
         },
         {
-          link: 'http://pororo-memory-match.jinho6225.com',
-          title: 'PoRoRo-Memory-match',
-          github: 'https://github.com/jinho6225/PororoMemoryMatch',
+          link: 'https://patagogogo.jinho6225.com/',
+          title: 'patagogogo-sales',
+          github: 'https://github.com/jinho6225/patagogogo',
+          desc: `A full stack Node.js and React.js E-commerce shopping cart app for fashion brand.`,
+          id: 2,
+          stack: [
+            'React.js',
+            'Bootstrap 4',
+            'CSS3',
+            'Webpack 4',
+            'PostgreSQL',
+            'HTML5',
+            'Node.js',
+            'Express.js',
+            'AWS EC2',
+          ],
+          img: `dist/assets/pata4.gif`,
+        },
+        {
+          link: 'https://bnb.jeff-j.me',
+          title: 'burgers-n-brew',
+          github: 'https://github.com/jeff-jones2020/burgers-n-brew.git',
           desc:
-            'A JavaScript memory matching application based on the pororo animation.',
+            'A dynamic mobile-first web application for hungry people who want to find deals on a classic combo - burgers and beer.',
           id: 3,
-          stack: ['JavaScript', 'HTML5', 'CSS3', 'Flexbox'],
-          img: `dist/assets/pororoMemoryMatch.png`
+          stack: [
+            'React.js',
+            'SASS',
+            'Node.js',
+            'Express.js',
+            'Passport.js',
+            'React Router',
+            'PostgreSQL',
+            'Bootstrap 4',
+            'AWS EC2',
+            'bcrypt 4',
+            'Webpack 4',
+          ],
+          img: `dist/assets/bnb.gif`,
         },
         {
           link: 'http://gradetable.jinho6225.com',
@@ -64,28 +85,28 @@ class App extends Component {
             'styledComponents',
             'Node.js',
             'Express',
-            'MySQL'
+            'MySQL',
           ],
-          img: `https://cdn.svgporn.com/logos/javascript.svg`
+          img: `https://cdn.svgporn.com/logos/javascript.svg`,
         },
         {
-          link: 'http://webapp.jinho6225.com',
-          title: 'Simple webapp',
-          github: 'https://github.com/jinho6225/webApp-node.js',
+          link: 'http://pororo-memory-match.jinho6225.com',
+          title: 'PoRoRo-Memory-match',
+          github: 'https://github.com/jinho6225/PororoMemoryMatch',
           desc:
-            'Aliquip sit eu amet nulla id veniam amet ut voluptate ullamcute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.',
+            'A JavaScript memory matching application based on the pororo animation.',
           id: 5,
-          stack: ['Node.js', 'Bootstrap'],
-          img: `https://cdn.svgporn.com/logos/javascript.svg`
-        }
-      ]
+          stack: ['JavaScript', 'HTML5', 'CSS3', 'Flexbox'],
+          img: `dist/assets/pororoMemoryMatch.png`,
+        },
+      ],
     };
   }
   render() {
     const { portfolioArr } = this.state;
     return (
       <div>
-        <Element name="Jinho">
+        <Element name="Title">
           <NavBar />
         </Element>
         <Element name="Home">

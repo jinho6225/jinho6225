@@ -10,20 +10,16 @@ const ContactDiv = styled.div`
   overflow: auto;
   overflow-x: hidden;
   width: 100%;
-  height: 120vh;
   background-color: #fefbf8;
   color: #1a1a1a;
   padding: 5rem 0rem;
   @media (max-width: 736px) {
     padding: 2rem 0rem;
-    height: 120vh;
   }
   @media (max-width: 736px) and (orientation: landscape) {
-    height: 200vh;
   }
   @media (max-width: 640px) {
     padding: 2rem 0rem;
-    height: 140vh;
   }
 `;
 const ContactContainer = styled.div`
@@ -105,7 +101,6 @@ const RunningBox = styled.div`
 `;
 const Box = styled.div`
   width: 100%;
-  height: 0;
   border: 0.5px solid #1a1a1a;
 `;
 const RunningChildBox = styled.div`

@@ -10,27 +10,22 @@ const ApplicationCol = styled.div`
   padding: 0.5rem 0.5rem;
   @media (max-width: 900px) {
     width: 35%;
-    height: 35%;
     margin: 2% auto;
   }
   @media (max-width: 736px) {
     width: 51%;
-    height: 50%;
     margin: 2% auto;
   }
   @media (max-width: 736px) and (orientation: landscape) {
     width: 40%;
-    height: 40%;
     margin: 2% auto;
   }
   @media (max-width: 640px) {
     width: 65%;
-    height: 65%;
     margin: 2% auto;
   }
   @media (max-width: 540px) {
     width: 70%;
-    height: 70%;
     margin: 2% auto;
   }
 `;
@@ -79,7 +74,7 @@ const Litag = styled.li`
 `;
 const A = styled.a`
   cursor: pointer;
-  color: #787878;
+  color: #fef7f1;
   font-size: 1.1rem;
   border: 1px solid #d5d5d5;
   padding: 0.1rem 0.3rem;
@@ -93,16 +88,16 @@ const A = styled.a`
 `;
 const Span = styled.span`
   font-size: 0.9rem;
-  color: #fefbf8;
+  color: #2e3330;
   transition: font-size 0.3s;
   padding: 0.1rem 0.25rem;
   margin: 0.1rem;
   border-radius: 0.25rem;
-  background-color: #f7b7cd;
+  background-color: #ffe8f0;
   &:hover {
   }
 `;
-const Entry = props => {
+const Entry = (props) => {
   const { portfolio } = props;
   const stackArr = portfolio.stack;
   const stacks = stackArr.map((stack, i) => {

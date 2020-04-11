@@ -1,19 +1,20 @@
-import React, { Component } from "react";
-import Scroll from "react-scroll";
-import styled from "styled-components";
+import React, { Component } from 'react';
+import Scroll from 'react-scroll';
+import styled from 'styled-components';
 
 let Link = Scroll.Link;
 
 const NavDiv = styled.div`
   width: 100%;
-  background-color: #fef7f1;
-  color: #1a1a1a;
+  background-color: #1a1a1a;
+  color: #fef7f1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 3%;
   position: fixed;
   top: 0;
+  z-index: 1;
   @media (max-width: 640px) {
     padding: 1% 5%;
     flex-direction: column;
@@ -107,7 +108,7 @@ class NavBar extends Component {
         </Title>
         <NavList>
           <Ultag>
-            <Litag>
+            {/* <Litag>
               <A
                 activeClass="active"
                 to="Home"
@@ -124,7 +125,7 @@ class NavBar extends Component {
               >
                 <Span>Home</Span>
               </A>
-            </Litag>
+            </Litag> */}
             <Litag>
               <A
                 activeClass="active"

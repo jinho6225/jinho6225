@@ -4,25 +4,19 @@ import styled from 'styled-components';
 
 const ApplicationDiv = styled.div`
   width: 100%;
-  height: 225vh;
-  background-color: #fef7f1;
-  color: #1a1a1a;
+  background-color: #1a1a1a;
+  color: #fef7f1;
   padding: 5%;
 
   @media (max-width: 900px) {
-    height: 350vh;
   }
   @media (max-width: 736px) {
-    height: 350vh;
   }
   @media (max-width: 736px) and (orientation: landscape) {
-    height: 480vh;
   }
   @media (max-width: 640px) {
-    height: 525vh;
   }
   @media (max-width: 540px) {
-    height: 525vh;
   }
 `;
 const Title = styled.div`
@@ -33,7 +27,6 @@ const Title = styled.div`
 const ApplicationContainer = styled.div`
   width: 100%;
   margin: 2% auto;
-  height: 100%;
 `;
 
 class Applications extends React.Component {
