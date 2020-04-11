@@ -23,7 +23,7 @@ class App extends Component {
           id: 1,
           stack: [
             'React.js',
-            'Bootstrap4',
+            'Bootstrap 4',
             'CSS3',
             'Sass',
             'HTML5',
@@ -51,12 +51,29 @@ class App extends Component {
           img: `dist/assets/pata1.gif`,
         },
         {
+          link: 'http://gradetable.jinho6225.com',
+          title: 'Student-Grade-Table',
+          github: 'https://github.com/jinho6225/student-grade-table',
+          desc:
+            'A fullstack application where teachers can set grades for students.',
+          id: 3,
+          stack: [
+            'React.js',
+            'Bootstrap 4',
+            'CSS3',
+            'Node.js',
+            'Express.js',
+            'MySQL',
+          ],
+          img: `dist/assets/sgt.gif`,
+        },
+        {
           link: 'https://bnb.jeff-j.me',
           title: 'burgers-n-brew',
           github: 'https://github.com/jeff-jones2020/burgers-n-brew.git',
           desc:
             'A dynamic mobile-first web application for hungry people who want to find deals on a classic combo - burgers and beer.',
-          id: 3,
+          id: 4,
           stack: [
             'React.js',
             'SASS',
@@ -71,23 +88,6 @@ class App extends Component {
             'Webpack 4',
           ],
           img: `dist/assets/bnb.gif`,
-        },
-        {
-          link: 'http://gradetable.jinho6225.com',
-          title: 'Student-Grade-Table',
-          github: 'https://github.com/jinho6225/student-grade-table',
-          desc:
-            'Aliquip sitate ullamco velit. Elit nulla laborum aute minim aliqua eiusmod sint officia culpa incididunt labore officia et do.',
-          id: 4,
-          stack: [
-            'React.js',
-            'Bootstrap',
-            'styledComponents',
-            'Node.js',
-            'Express',
-            'MySQL',
-          ],
-          img: `https://cdn.svgporn.com/logos/javascript.svg`,
         },
         {
           link: 'http://pororo-memory-match.jinho6225.com',
