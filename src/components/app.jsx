@@ -70,7 +70,7 @@ class App extends Component {
         {
           link: 'https://bnb.jeff-j.me',
           title: 'burgers-n-brew',
-          github: 'https://github.com/jeff-jones2020/burgers-n-brew.git',
+          github: 'https://github.com/jeff-jones2020/burgers-n-brew',
           desc:
             'A dynamic mobile-first web application for hungry people who want to find deals on a classic combo - burgers and beer.',
           id: 4,
@@ -92,7 +92,7 @@ class App extends Component {
         {
           link: 'http://pororo-memory-match.jinho6225.com',
           title: 'PoRoRo-Memory-match',
-          github: 'https://github.com/jinho6225/PororoMemoryMatch',
+          github: 'https://github.com/jinho6225/pororo-memory-match',
           desc:
             'A JavaScript memory matching application based on the pororo animation.',
           id: 5,
