@@ -51,23 +51,6 @@ class App extends Component {
           img: `dist/assets/pata1.gif`,
         },
         {
-          link: 'http://gradetable.jinho6225.com',
-          title: 'Student-Grade-Table',
-          github: 'https://github.com/jinho6225/student-grade-table',
-          desc:
-            'A fullstack application where teachers can set grades for students.',
-          id: 3,
-          stack: [
-            'React.js',
-            'Bootstrap 4',
-            'CSS3',
-            'Node.js',
-            'Express.js',
-            'MySQL',
-          ],
-          img: `dist/assets/sgt.gif`,
-        },
-        {
           link: 'https://bnb.jeff-j.me',
           title: 'burgers-n-brew',
           github: 'https://github.com/jeff-jones2020/burgers-n-brew',
@@ -88,16 +71,6 @@ class App extends Component {
             'Webpack 4',
           ],
           img: `dist/assets/bnb.gif`,
-        },
-        {
-          link: 'http://pororo-memory-match.jinho6225.com',
-          title: 'PoRoRo-Memory-match',
-          github: 'https://github.com/jinho6225/pororo-memory-match',
-          desc:
-            'A JavaScript memory matching application based on the pororo animation.',
-          id: 5,
-          stack: ['JavaScript', 'HTML5', 'CSS3', 'Flexbox'],
-          img: `dist/assets/pororo.gif`,
         },
       ],
     };
@@ -130,3 +103,31 @@ class App extends Component {
 }
 
 export default App;
+
+// {
+//   link: 'http://gradetable.jinho6225.com',
+//   title: 'Student-Grade-Table',
+//   github: 'https://github.com/jinho6225/student-grade-table',
+//   desc:
+//     'A fullstack application where teachers can set grades for students.',
+//   id: 3,
+//   stack: [
+//     'React.js',
+//     'Bootstrap 4',
+//     'CSS3',
+//     'Node.js',
+//     'Express.js',
+//     'MySQL',
+//   ],
+//   img: `dist/assets/sgt.gif`,
+// },
+// {
+//   link: 'http://pororo-memory-match.jinho6225.com',
+//   title: 'PoRoRo-Memory-match',
+//   github: 'https://github.com/jinho6225/pororo-memory-match',
+//   desc:
+//     'A JavaScript memory matching application based on the pororo animation.',
+//   id: 5,
+//   stack: ['JavaScript', 'HTML5', 'CSS3', 'Flexbox'],
+//   img: `dist/assets/pororo.gif`,
+// },

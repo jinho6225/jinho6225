@@ -8,12 +8,19 @@ const HomeDiv = styled.div`
   color: #1a1a1a;
   height: 99vh;
 `;
+const P = styled.p`
+  margin-bottom: 0.5rem;
+`;
 const H4 = styled.h4`
+  width: 23%;
   margin: 0;
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+  @media (max-width: 640px) {
+    width: 75%;
+  }
 `;
 const A = styled.a`
   display: inline-block;
@@ -23,14 +30,15 @@ const A = styled.a`
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid gray;
-  padding: 0.375rem 0.75rem;
+  padding: 0.375rem;
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
   text-decoration: none;
+  margin: 0 1%;
   &:hover {
     text-decoration: underline;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 `;
 
@@ -40,8 +48,8 @@ class Home extends Component {
       strings: [
         'HTML5',
         'CSS3',
-        'Sass',
         'React.js',
+        'Sass',
         'Styled Component',
         'JavaScript',
         'ES6',
@@ -49,7 +57,7 @@ class Home extends Component {
         'Express.js',
         'MySQL',
         'PostgreSQL',
-        'how to work with team',
+        'How to work with team',
       ],
       typeSpeed: 150,
       startDelay: 500,
@@ -66,11 +74,11 @@ class Home extends Component {
     return (
       <HomeDiv>
         <H4>
-          <p>
+          <P>
             <strong>Jinho Myung🏋🏻‍♀️</strong>
-          </p>
-          <p>
-            I know &nbsp;
+          </P>
+          <P>I can handle 👨🏻‍💻</P>
+          <P>
             <strong
               id="typed"
               style={{ whiteSpace: 'pre' }}
@@ -78,12 +86,9 @@ class Home extends Component {
                 this.el = el;
               }}
             ></strong>
-            👨🏻‍💻
-          </p>
-          <p>
-            <strong>Full Stack Software Engineer</strong>
-          </p>
-          <p>
+          </P>
+          <P>Full Stack Web Developer</P>
+          <P>
             <A
               href="https://github.com/jinho6225"
               role="button"
@@ -108,7 +113,7 @@ class Home extends Component {
               <i className="fas fa-rocket"></i>
               &nbsp; Blog
             </A>
-          </p>
+          </P>
         </H4>
       </HomeDiv>
     );
