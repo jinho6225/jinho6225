@@ -12,13 +12,13 @@ const P = styled.p`
   margin-bottom: 0.5rem;
 `;
 const H4 = styled.h4`
-  width: 23%;
+  width: 285px;
   margin: 0;
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  @media (max-width: 640px) {
+  @media (max-width: 576px) {
     width: 75%;
   }
 `;

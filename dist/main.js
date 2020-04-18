@@ -455,13 +455,13 @@ var r;r=function(){return function(e){var t={};function n(r){if(t[r])return t[r]
 `,Se=s.a.p`
   margin-bottom: 0.5rem;
 `,Te=s.a.h4`
-  width: 23%;
+  width: 285px;
   margin: 0;
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  @media (max-width: 640px) {
+  @media (max-width: 576px) {
     width: 75%;
   }
 `,Ce=s.a.a`
