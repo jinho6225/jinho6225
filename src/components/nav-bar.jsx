@@ -50,7 +50,6 @@ const Ultag = styled.ul`
   list-style-type: none;
   cursor: pointer;
   @media (max-width: 640px) {
-    flex-direction: column;
     justify-content: center;
   }
 `;
@@ -67,16 +66,16 @@ const H4 = styled.h4`
   margin: 0;
   transition: font-size 0.3s;
   &:hover {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 `;
 const Span = styled.span`
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: 3c3c3c;
   text-shadow: 1px 1px 2px black, 0 0 25px pink;
   transition: font-size 0.3s;
   &:hover {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-decoration: underline;
   }
 `;

@@ -420,7 +420,6 @@ var r;r=function(){return function(e){var t={};function n(r){if(t[r])return t[r]
   list-style-type: none;
   cursor: pointer;
   @media (max-width: 640px) {
-    flex-direction: column;
     justify-content: center;
   }
 `,me=s.a.li`
@@ -435,15 +434,15 @@ var r;r=function(){return function(e){var t={};function n(r){if(t[r])return t[r]
   margin: 0;
   transition: font-size 0.3s;
   &:hover {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 `,ye=s.a.span`
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: 3c3c3c;
   text-shadow: 1px 1px 2px black, 0 0 25px pink;
   transition: font-size 0.3s;
   &:hover {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-decoration: underline;
   }
 `,ve=Object(s.a)(ce)`
@@ -453,13 +452,19 @@ var r;r=function(){return function(e){var t={};function n(r){if(t[r])return t[r]
   background-color: #fefbf8;
   color: #1a1a1a;
   height: 99vh;
-`,Se=s.a.h4`
+`,Se=s.a.p`
+  margin-bottom: 0.5rem;
+`,Te=s.a.h4`
+  width: 23%;
   margin: 0;
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-`,Te=s.a.a`
+  @media (max-width: 640px) {
+    width: 75%;
+  }
+`,Ce=s.a.a`
   display: inline-block;
   font-weight: 400;
   color: #1a1a1a;
@@ -467,13 +472,14 @@ var r;r=function(){return function(e){var t={};function n(r){if(t[r])return t[r]
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid gray;
-  padding: 0.375rem 0.75rem;
+  padding: 0.375rem;
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
   text-decoration: none;
+  margin: 0 1%;
   &:hover {
     text-decoration: underline;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
-`;class Ce extends r.Component{componentDidMount(){this.typed=new Ee.a(this.el,{strings:["HTML5","CSS3","Sass","React.js","Styled Component","JavaScript","ES6","Node.js","Express.js","MySQL","PostgreSQL","how to work with team"],typeSpeed:150,startDelay:500,backSpeed:100,backDelay:1e3,loop:!0})}componentWillUnmount(){this.typed.destroy()}render(){return a.a.createElement(xe,null,a.a.createElement(Se,null,a.a.createElement("p",null,a.a.createElement("strong",null,"Jinho Myung🏋🏻‍♀️")),a.a.createElement("p",null,"I know  ",a.a.createElement("strong",{id:"typed",style:{whiteSpace:"pre"},ref:e=>{this.el=e}}),"👨🏻‍💻"),a.a.createElement("p",null,a.a.createElement("strong",null,"Full Stack Software Engineer")),a.a.createElement("p",null,a.a.createElement(Te,{href:"https://github.com/jinho6225",role:"button",target:"_blank"},a.a.createElement("i",{className:"fab fa-github"}),"  Github"),a.a.createElement(Te,{href:"https://www.linkedin.com/in/jinho6225",role:"button",target:"_blank"},a.a.createElement("i",{className:"fab fa-linkedin"}),"  Linkedin"),a.a.createElement(Te,{href:"https://jinho6225.github.io/",role:"button",target:"_blank"},a.a.createElement("i",{className:"fas fa-rocket"}),"  Blog"))))}}var Pe=Ce;let _e=u.a.Element;class Oe extends r.Component{constructor(e){super(e),this.state={portfolioArr:[{link:"https://flash-card.jinho6225.com",title:"Flash-Card",github:"https://github.com/jinho6225/flash-card",desc:"A Dynamic Flash Card, responsive web App built with React.js.",id:1,stack:["React.js","Bootstrap 4","CSS3","Sass","HTML5","localStorage"],img:"dist/assets/flash-card.gif"},{link:"https://patagogogo.jinho6225.com/",title:"patagogogo-sales",github:"https://github.com/jinho6225/patagogogo",desc:"A full stack Node.js and React.js E-commerce shopping cart app for fashion brand.",id:2,stack:["React.js","Bootstrap 4","CSS3","Webpack 4","PostgreSQL","HTML5","Node.js","Express.js","AWS EC2"],img:"dist/assets/pata1.gif"},{link:"http://gradetable.jinho6225.com",title:"Student-Grade-Table",github:"https://github.com/jinho6225/student-grade-table",desc:"A fullstack application where teachers can set grades for students.",id:3,stack:["React.js","Bootstrap 4","CSS3","Node.js","Express.js","MySQL"],img:"dist/assets/sgt.gif"},{link:"https://bnb.jeff-j.me",title:"burgers-n-brew",github:"https://github.com/jeff-jones2020/burgers-n-brew",desc:"A dynamic mobile-first web application for hungry people who want to find deals on a classic combo - burgers and beer.",id:4,stack:["React.js","SASS","Node.js","Express.js","Passport.js","React Router","PostgreSQL","Bootstrap 4","AWS EC2","bcrypt 4","Webpack 4"],img:"dist/assets/bnb.gif"},{link:"http://pororo-memory-match.jinho6225.com",title:"PoRoRo-Memory-match",github:"https://github.com/jinho6225/pororo-memory-match",desc:"A JavaScript memory matching application based on the pororo animation.",id:5,stack:["JavaScript","HTML5","CSS3","Flexbox"],img:"dist/assets/pororo.gif"}]}}render(){const{portfolioArr:e}=this.state;return a.a.createElement("div",null,a.a.createElement(_e,{name:"Title"},a.a.createElement(we,null)),a.a.createElement(_e,{name:"Home"},a.a.createElement(Pe,null)),a.a.createElement(_e,{name:"Applications"},a.a.createElement(_,{portfolioArr:e})),a.a.createElement(_e,{name:"TechStack"},a.a.createElement(D,null)),a.a.createElement(_e,{name:"About"},a.a.createElement(se,null)),a.a.createElement(_e,{name:"Contact"},a.a.createElement(Z,null)))}}var Ne=Oe;o.a.render(a.a.createElement(Ne,null),document.querySelector("#root"))}]);
+`;class Pe extends r.Component{componentDidMount(){this.typed=new Ee.a(this.el,{strings:["HTML5","CSS3","React.js","Sass","Styled Component","JavaScript","ES6","Node.js","Express.js","MySQL","PostgreSQL","How to work with team"],typeSpeed:150,startDelay:500,backSpeed:100,backDelay:1e3,loop:!0})}componentWillUnmount(){this.typed.destroy()}render(){return a.a.createElement(xe,null,a.a.createElement(Te,null,a.a.createElement(Se,null,a.a.createElement("strong",null,"Jinho Myung🏋🏻‍♀️")),a.a.createElement(Se,null,"I can handle 👨🏻‍💻"),a.a.createElement(Se,null,a.a.createElement("strong",{id:"typed",style:{whiteSpace:"pre"},ref:e=>{this.el=e}})),a.a.createElement(Se,null,"Full Stack Web Developer"),a.a.createElement(Se,null,a.a.createElement(Ce,{href:"https://github.com/jinho6225",role:"button",target:"_blank"},a.a.createElement("i",{className:"fab fa-github"}),"  Github"),a.a.createElement(Ce,{href:"https://www.linkedin.com/in/jinho6225",role:"button",target:"_blank"},a.a.createElement("i",{className:"fab fa-linkedin"}),"  Linkedin"),a.a.createElement(Ce,{href:"https://jinho6225.github.io/",role:"button",target:"_blank"},a.a.createElement("i",{className:"fas fa-rocket"}),"  Blog"))))}}var _e=Pe;let Oe=u.a.Element;class Ne extends r.Component{constructor(e){super(e),this.state={portfolioArr:[{link:"https://flash-card.jinho6225.com",title:"Flash-Card",github:"https://github.com/jinho6225/flash-card",desc:"A Dynamic Flash Card, responsive web App built with React.js.",id:1,stack:["React.js","Bootstrap 4","CSS3","Sass","HTML5","localStorage"],img:"dist/assets/flash-card.gif"},{link:"https://patagogogo.jinho6225.com/",title:"patagogogo-sales",github:"https://github.com/jinho6225/patagogogo",desc:"A full stack Node.js and React.js E-commerce shopping cart app for fashion brand.",id:2,stack:["React.js","Bootstrap 4","CSS3","Webpack 4","PostgreSQL","HTML5","Node.js","Express.js","AWS EC2"],img:"dist/assets/pata1.gif"},{link:"https://bnb.jeff-j.me",title:"burgers-n-brew",github:"https://github.com/jeff-jones2020/burgers-n-brew",desc:"A dynamic mobile-first web application for hungry people who want to find deals on a classic combo - burgers and beer.",id:4,stack:["React.js","SASS","Node.js","Express.js","Passport.js","React Router","PostgreSQL","Bootstrap 4","AWS EC2","bcrypt 4","Webpack 4"],img:"dist/assets/bnb.gif"}]}}render(){const{portfolioArr:e}=this.state;return a.a.createElement("div",null,a.a.createElement(Oe,{name:"Title"},a.a.createElement(we,null)),a.a.createElement(Oe,{name:"Home"},a.a.createElement(_e,null)),a.a.createElement(Oe,{name:"Applications"},a.a.createElement(_,{portfolioArr:e})),a.a.createElement(Oe,{name:"TechStack"},a.a.createElement(D,null)),a.a.createElement(Oe,{name:"About"},a.a.createElement(se,null)),a.a.createElement(Oe,{name:"Contact"},a.a.createElement(Z,null)))}}var je=Ne;o.a.render(a.a.createElement(je,null),document.querySelector("#root"))}]);
