@@ -146,19 +146,20 @@ const AboutMe = () => {
           <Title>About Me</Title>
           <P>
             Hello! I'm Jinho, a full-stack web developer with a passion for
-            programming, coding, and problem solving! <br />I like a challenge🔥
+            programming, coding, and problem-solving! <br />I like a challenge🔥
           </P>
           <P>
             My coding journey began when I realized that I wanted to resolve for
             life's everyday problems. <br />I took a full immersive course for
-            Full Stack Web Development which me to advance in programing. <br />
-            I learned how to work with team. I also obtained the abilities for
-            learning new technologies which will strengthen me as a developer.
+            Full Stack Web Development which me to advance in programming.{' '}
+            <br />I learned how to work with a team. I also obtained the
+            abilities for learning new technologies which will strengthen me as
+            a developer.
           </P>
           <P>
             I love to make a plan for resolving problems step by step and enjoy
             the logic of solving coding challenges by splitting a big problem
-            into smaller task!😁
+            into smaller tasks!😁
           </P>
         </ContentBox>
       </AboutMeContainer>

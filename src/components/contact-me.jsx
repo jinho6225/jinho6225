@@ -125,8 +125,8 @@ const ContactMe = () => {
             <RunningBox>
               <RunningChildBox>
                 <h5>
-                  I really like to learn new thing and challenge it <br />I will
-                  keep learning and eager to learn new skills
+                  I like to learn new thing and challenge it <br />I will keep
+                  learning and eager to learn new skills
                   <br /> I hope to go further and grow with you together👍🏻
                   <br />
                 </h5>
