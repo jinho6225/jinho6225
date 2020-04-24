@@ -115,11 +115,11 @@ const Entry = (props) => {
         </InsideDesc>
         <InsideStack>{stacks}</InsideStack>
         <Litag key={portfolio.id}>
-          <A href={portfolio.link}>
+          <A href={portfolio.link} target="_blank">
             <i className="fas fa-link"></i>
             &nbsp;Live
           </A>
-          <A href={portfolio.github}>
+          <A href={portfolio.github} target="_blank">
             <i className="fab fa-github"></i>
             &nbsp;Github
           </A>

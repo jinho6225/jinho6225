@@ -146,7 +146,7 @@ const AboutMe = () => {
           <Title>About Me</Title>
           <P>
             Hello! I'm Jinho, a full-stack web developer with a passion for
-            programming, coding, and problem-solving! <br />I like a challenge🔥
+            programming, coding, and problem-solving! I like a challenge🔥
           </P>
           <P>
             My coding journey began when I realized that I wanted to resolve for
