@@ -95,7 +95,7 @@ class Home extends Component {
               target="_blank"
             >
               <i className="fab fa-github"></i>
-              &nbsp; Github
+              &nbsp; GitHub
             </A>
             <A
               href="https://www.linkedin.com/in/jinho6225"

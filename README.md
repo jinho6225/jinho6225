@@ -16,6 +16,6 @@ Hello. I'm Jinho Myung. It's my portfolio website.
 
 Jinho Myung
 - [Portfolio](https://jinho6225.com/) - It's my portfolio website
-- [Github](https://github.com/jinho6225) - This is my Github page
+- [GitHub](https://github.com/jinho6225) - This is my GitHub page
 - [Linkedin](https://www.linkedin.com/in/jinho6225/) - This is my Linkedin page
 - jinho6225@hotmail.com

@@ -121,7 +121,7 @@ const Entry = (props) => {
           </A>
           <A href={portfolio.github} target="_blank">
             <i className="fab fa-github"></i>
-            &nbsp;Github
+            &nbsp;GitHub
           </A>
         </Litag>
       </TechDiv>

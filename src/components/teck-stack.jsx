@@ -196,7 +196,7 @@ const TechStack = () => {
             </Tech>
             <Tech>
               <Img src="/dist/assets/github.svg" id="git" />
-              <P>Github</P>
+              <P>GitHub</P>
             </Tech>
             <Tech>
               <Img src="https://cdn.svgporn.com/logos/yarn.svg" id="yarn" />
