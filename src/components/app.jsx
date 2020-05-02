@@ -61,7 +61,7 @@ class App extends Component {
             'React.js',
             'Bootstrap 4',
             'CSS3',
-            'SASS'
+            'SASS',
             'Node.js',
             'Express.js',
             'MySQL',
