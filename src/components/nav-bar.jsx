@@ -64,9 +64,10 @@ const H4 = styled.h4`
   color: 3c3c3c;
   text-shadow: 1px 1px 2px black, 0 0 25px pink, 0 0 5px yellow;
   margin: 0;
+  font-size: 1.3rem;
   transition: font-size 0.3s;
   &:hover {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 `;
 const Span = styled.span`

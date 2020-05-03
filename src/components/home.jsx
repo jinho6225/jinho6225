@@ -10,6 +10,11 @@ const HomeDiv = styled.div`
 `;
 const P = styled.p`
   margin-bottom: 0.5rem;
+  font-family: PaytoneOne-Regular;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px black;
+  margin: 0;
+  font-size: 1.3rem;
 `;
 const H4 = styled.h4`
   width: 285px;
@@ -57,7 +62,7 @@ class Home extends Component {
         'Express.js',
         'MySQL',
         'PostgreSQL',
-        'How to work with team',
+        'Work with team',
       ],
       typeSpeed: 150,
       startDelay: 500,
@@ -77,7 +82,7 @@ class Home extends Component {
           <P>
             <strong>Jinho Myung🏋🏻‍♀️</strong>
           </P>
-          <P>I can handle 👨🏻‍💻</P>
+          <P>I can do 👨🏻‍💻</P>
           <P>
             <strong
               id="typed"
