@@ -1,5 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
+import GitHubCalendar from 'react-github-calendar';
+
+const defaultTheme = {
+  background: 'transparent',
+  text: '#fef7f1',
+  grade4: '#196127',
+  grade3: '#239a3b',
+  grade2: '#7bc96f',
+  grade1: '#c6e48b',
+  grade0: '#ebedf0',
+};
 
 const AboutDiv = styled.div`
   width: 100%;
@@ -32,6 +43,21 @@ const AboutMeContainer = styled.div`
     align-items: center;
   }
 `;
+const GithubContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 820px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  @media (max-width: 640px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+`
 const PictureBox = styled.div`
   width: 35%;
   padding: 3%;
@@ -163,6 +189,9 @@ const AboutMe = () => {
           </P>
         </ContentBox>
       </AboutMeContainer>
+      <GithubContainer>
+        <GitHubCalendar username="jinho6225" theme={defaultTheme}/>
+      </GithubContainer>
     </AboutDiv>
   );
 };
