@@ -13,7 +13,7 @@ const P = styled.p`
   font-family: PaytoneOne-Regular;
   font-weight: 500;
   text-shadow: 1px 1px 2px black;
-  margin: 0;
+  margin: 3px 0px;
   font-size: 1.3rem;
 `;
 const H4 = styled.h4`
@@ -25,6 +25,13 @@ const H4 = styled.h4`
   transform: translate(-50%, -50%);
   @media (max-width: 576px) {
     width: 75%;
+  }
+`;
+const Strong = styled.strong`
+  &.typed {
+    color: #3f59af;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.13);
+    letter-spacing: 2px;
   }
 `;
 const A = styled.a`
@@ -62,7 +69,10 @@ class Home extends Component {
         'Express.js',
         'MySQL',
         'PostgreSQL',
-        'Work with team',
+        'MongoDB',
+        'mongoose',
+        'Python',
+        'Django',
       ],
       typeSpeed: 150,
       startDelay: 500,
@@ -84,13 +94,14 @@ class Home extends Component {
           </P>
           <P>I can do 👨🏻‍💻</P>
           <P>
-            <strong
+            <Strong
               id="typed"
+              className="typed"
               style={{ whiteSpace: 'pre' }}
               ref={(el) => {
                 this.el = el;
               }}
-            ></strong>
+            ></Strong>
           </P>
           <P>Full Stack Web Developer</P>
           <P>

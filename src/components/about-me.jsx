@@ -1,5 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
+import GitHubCalendar from 'react-github-calendar';
+
+const defaultTheme = {
+  background: 'transparent',
+  text: '#fef7f1',
+  grade4: '#196127',
+  grade3: '#239a3b',
+  grade2: '#7bc96f',
+  grade1: '#c6e48b',
+  grade0: '#ebedf0',
+};
 
 const AboutDiv = styled.div`
   width: 100%;
@@ -178,6 +189,10 @@ const AboutMe = () => {
           </P>
         </ContentBox>
       </AboutMeContainer>
+
+      <GithubContainer>
+        <GitHubCalendar username="jinho6225" theme={defaultTheme} />
+      </GithubContainer>
     </AboutDiv>
   );
 };
