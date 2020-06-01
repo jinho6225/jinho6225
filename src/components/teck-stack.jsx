@@ -129,6 +129,14 @@ const TechStack = () => {
               <P>Express</P>
             </Tech>
             <Tech>
+              <Img src="https://cdn.svgporn.com/logos/python.svg" id="python" />
+              <P>python</P>
+            </Tech>
+            <Tech>
+              <Img src="https://cdn.svgporn.com/logos/django.svg" id="Django" />
+              <P>Django</P>
+            </Tech>
+            <Tech>
               <Img src="/dist/assets/php.png" id="php" />
               <P>php</P>
             </Tech>
