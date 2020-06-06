@@ -152,8 +152,19 @@ const TechStack = () => {
               <P>MySQL</P>
             </Tech>
             <Tech>
+              <Img
+                src="https://cdn.svgporn.com/logos/sequelize.svg"
+                id="mysql"
+              />
+              <P>Sequelize</P>
+            </Tech>
+            <Tech>
               <Img src="https://cdn.svgporn.com/logos/mongodb.svg" id="mongo" />
               <P>MongoDB</P>
+            </Tech>
+            <Tech>
+              <Img src="/dist/assets/mongoose.png" id="mongoose" />
+              <P>mongoose</P>
             </Tech>
           </TechDeck>
           <HR></HR>
