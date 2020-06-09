@@ -16,20 +16,31 @@ class App extends Component {
     this.state = {
       portfolioArr: [
         {
-          link: 'https://flash-card.jinho6225.com',
-          title: 'Flash-Card',
-          github: 'https://github.com/jinho6225/flash-card',
-          desc: 'A Dynamic Flash Card, responsive web App built with React.js.',
+          link: 'https://gradetable.jinho6225.com',
+          title: 'Student-Grade-Table',
+          github: 'https://github.com/jinho6225/student-grade-table',
+          desc:
+            'A fullstack application where teachers can set grades with signedIn status for students. Mobile responsive',
           id: 1,
           stack: [
             'React.js',
+            'React Router',
+            'Context API',
             'Bootstrap 4',
+            'Styled Components',
             'CSS3',
-            'Sass',
-            'HTML5',
-            'localStorage',
+            'SASS',
+            'Node.js',
+            'Express.js',
+            'MySQL2',
+            'Sequelize',
+            'JWT',
+            'Crypto',
+            'Cookie',
+            'LocalStorage',
+            'AWS EC2',
           ],
-          img: `dist/assets/flash-card.gif`,
+          img: `dist/assets/sgt.gif`,
         },
         {
           link: 'https://patagogogo.jinho6225.com/',
@@ -51,22 +62,20 @@ class App extends Component {
           img: `dist/assets/pata1.gif`,
         },
         {
-          link: 'https://gradetable.jinho6225.com',
-          title: 'Student-Grade-Table',
-          github: 'https://github.com/jinho6225/student-grade-table',
-          desc:
-            'A fullstack application where teachers can set grades for students.',
+          link: 'https://flash-card.jinho6225.com',
+          title: 'Flash-Card',
+          github: 'https://github.com/jinho6225/flash-card',
+          desc: 'A Dynamic Flash Card, responsive web App built with React.js.',
           id: 3,
           stack: [
             'React.js',
             'Bootstrap 4',
             'CSS3',
-            'SASS',
-            'Node.js',
-            'Express.js',
-            'MySQL',
+            'Sass',
+            'HTML5',
+            'localStorage',
           ],
-          img: `dist/assets/sgt.gif`,
+          img: `dist/assets/flash-card.gif`,
         },
         {
           link: 'https://bnb.jeff-j.me',
@@ -121,7 +130,6 @@ class App extends Component {
 }
 
 export default App;
-
 
 // {
 //   link: 'http://pororo-memory-match.jinho6225.com',
