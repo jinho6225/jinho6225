@@ -78,7 +78,7 @@ class App extends Component {
           img: `dist/assets/flash-card.gif`,
         },
         {
-          link: 'https://bnb.jeff-j.me',
+          link: 'https://burgers-n-brew.jinho6225.com/',
           title: 'burgers-n-brew',
           github: 'https://github.com/jeff-jones2020/burgers-n-brew',
           desc:
