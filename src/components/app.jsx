@@ -78,6 +78,24 @@ class App extends Component {
           img: `dist/assets/flash-card.gif`,
         },
         {
+          link: 'https://github.com/jinho6225/missyNotificator',
+          title: 'missyNotificator',
+          github: 'https://github.com/jinho6225/missyNotificator',
+          desc:
+            `It's Bot Notificator for my wife. she doesn't need to check this site for what she's been waiting for`,
+          id: 4,
+          stack: [
+            'Node.js',
+            'Puppeteer',
+            'Express.js'
+            'telegram Bot API',
+            'node-schedule',
+            'AWS EC2',
+            'Ubuntu',
+          ],
+          img: `dist/assets/missyNoti.png`,
+        },
+        {
           link: 'https://burgers-n-brew.jinho6225.com/',
           title: 'burgers-n-brew',
           github: 'https://github.com/jeff-jones2020/burgers-n-brew',
