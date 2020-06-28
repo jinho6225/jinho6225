@@ -81,13 +81,12 @@ class App extends Component {
           link: 'https://github.com/jinho6225/missyNotificator',
           title: 'missyNotificator',
           github: 'https://github.com/jinho6225/missyNotificator',
-          desc:
-            `It's Bot Notificator for my wife. she doesn't need to check this site for what she's been waiting for`,
+          desc: `It's Bot Notificator for my wife. she doesn't need to check this site for what she's been waiting for`,
           id: 4,
           stack: [
             'Node.js',
             'Puppeteer',
-            'Express.js'
+            'Express.js',
             'telegram Bot API',
             'node-schedule',
             'AWS EC2',
