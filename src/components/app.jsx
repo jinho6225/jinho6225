@@ -100,7 +100,7 @@ class App extends Component {
           github: 'https://github.com/jeff-jones2020/burgers-n-brew',
           desc:
             'A dynamic mobile-first web application for hungry people who want to find deals on a classic combo - burgers and beer.',
-          id: 4,
+          id: 5,
           stack: [
             'React.js',
             'SASS',
@@ -116,6 +116,24 @@ class App extends Component {
           ],
           img: `dist/assets/bnb.gif`,
         },
+        {
+          link: 'https://jinho6225.pythonanywhere.com/',
+          title: 'Todo List with Django REST api',
+          github: 'https://github.com/jinho6225/todo_drf',
+          desc:
+            'Todo App (Django REST framework + Vanilla JavaScript)',
+          id: 6,
+          stack: [
+            'Vanilla JavaScript',
+            'Variable CSS',
+            'HTML5',
+            'Python',
+            'Django',
+            'Django REST framework',
+            'Sqlite3'
+          ],
+          img: `dist/assets/todo.gif`,
+        }
       ],
     };
   }
