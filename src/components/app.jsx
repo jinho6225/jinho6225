@@ -78,29 +78,12 @@ class App extends Component {
           img: `dist/assets/flash-card.gif`,
         },
         {
-          link: 'https://github.com/jinho6225/missyNotificator',
-          title: 'missyNotificator',
-          github: 'https://github.com/jinho6225/missyNotificator',
-          desc: `It's Bot Notificator for my wife. she doesn't need to check this site for what she's been waiting for`,
-          id: 4,
-          stack: [
-            'Node.js',
-            'Puppeteer',
-            'Express.js',
-            'telegram Bot API',
-            'node-schedule',
-            'AWS EC2',
-            'Ubuntu',
-          ],
-          img: `dist/assets/missyNoti.png`,
-        },
-        {
           link: 'https://burgers-n-brew.jinho6225.com/',
           title: 'burgers-n-brew',
           github: 'https://github.com/jeff-jones2020/burgers-n-brew',
           desc:
             'A dynamic mobile-first web application for hungry people who want to find deals on a classic combo - burgers and beer.',
-          id: 5,
+          id: 4,
           stack: [
             'React.js',
             'SASS',
@@ -122,7 +105,7 @@ class App extends Component {
           github: 'https://github.com/jinho6225/todo_drf',
           desc:
             'Todo App (Django REST framework + Vanilla JavaScript)',
-          id: 6,
+          id: 5,
           stack: [
             'Vanilla JavaScript',
             'Variable CSS',
@@ -133,6 +116,23 @@ class App extends Component {
             'Sqlite3'
           ],
           img: `dist/assets/todo.gif`,
+        },
+        {
+          link: 'https://jinhomyung.pythonanywhere.com/',
+          title: 'Todo App (Django Template)',
+          github: 'https://github.com/jinho6225/django_todo',
+          desc:
+            'what Django is all about. basics of creating a simple todo app.',
+          id: 6,
+          stack: [
+            'Variable CSS',
+            'HTML5',
+            'Python',
+            'Django',
+            'Django template',
+            'Sqlite3'
+          ],
+          img: 'dist/assets/django_template.gif',
         }
       ],
     };
