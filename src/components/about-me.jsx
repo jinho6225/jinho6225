@@ -158,7 +158,7 @@ const AboutMe = () => {
               </div>
             </A>
             <A
-              href="/dist/assets/Jinho_Myung.pdf"
+              href="https://drive.google.com/file/d/1iFmYN3t5UxkwTsB2GFp479VuotrpPKqG/view"
               target="_blank"
               aria-label="Resume Download"
             >
