@@ -131,12 +131,31 @@ class App extends Component {
           img: `dist/assets/django_react_todo.gif`,
         },
         {
+          link: 'https://jhmyung6225.pythonanywhere.com/',
+          title: 'Todo List with Django RESTful API + React Hooks',
+          github: 'https://github.com/jinho6225/todo_drf_react_hooks',
+          desc:
+            'Todo App (Django RESTful API + React Hooks) / SPA(Single Page Application)',
+          id: 7,
+          stack: [
+            'React.js',
+            'React Hooks',
+            'Variable CSS',
+            'HTML5',
+            'Python',
+            'Django',
+            'Django RESTful API',
+            'Sqlite3'
+          ],
+          img: `dist/assets/todo_hooks.gif`,
+        },
+        {
           link: 'https://burgers-n-brew.jinho6225.com/',
           title: 'burgers-n-brew',
           github: 'https://github.com/jeff-jones2020/burgers-n-brew',
           desc:
             'A dynamic mobile-first web application for hungry people who want to find deals on a classic combo - burgers and beer.',
-          id: 7,
+          id: 8,
           stack: [
             'React.js',
             'SASS',
