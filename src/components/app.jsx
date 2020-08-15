@@ -81,8 +81,7 @@ class App extends Component {
           link: 'https://jinho6225.github.io/todofam/',
           title: 'ToDo App Family - same logic(system design) / different teck stack',
           github: 'https://github.com/jinho6225/todofam',
-          desc:
-            `Todo App (Django Template) / Todo App (Django REST framework + Vanilla JavaScript) / Todo App (Django REST framework + React.js) / Todo App (Django RESTful API + React Hooks)`,
+          desc:`Built simple Todo App family using Python + Django base, separated backend and frontend using Django REST framework allowing backend could provide endpoint to database which related with CRUD feature to frontend`,
           id: 4,
           stack: [
             'CSS Variables',
