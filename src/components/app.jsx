@@ -85,7 +85,7 @@ class App extends Component {
             'what Django is all about. basics of creating a simple todo app.',
           id: 4,
           stack: [
-            'Variable CSS',
+            'CSS Variables',
             'HTML5',
             'Python',
             'Django',
@@ -103,7 +103,7 @@ class App extends Component {
           id: 5,
           stack: [
             'Vanilla JavaScript',
-            'Variable CSS',
+            'CSS Variables',
             'HTML5',
             'Python',
             'Django',
@@ -121,7 +121,7 @@ class App extends Component {
           id: 6,
           stack: [
             'React.js',
-            'Variable CSS',
+            'CSS Variables',
             'HTML5',
             'Python',
             'Django',
@@ -140,7 +140,7 @@ class App extends Component {
           stack: [
             'React.js',
             'React Hooks',
-            'Variable CSS',
+            'CSS Variables',
             'HTML5',
             'Python',
             'Django',
