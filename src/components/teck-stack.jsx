@@ -91,9 +91,13 @@ const TechStack = () => {
               <P>React</P>
             </Tech>
             <Tech>
-              <Img src="/dist/assets/jquery.png" id="jquery" />
-              <P>jQuery</P>
+              <Img src="https://cdn.svgporn.com/logos/redux.svg" id="redux" />
+              <P>Redux</P>
             </Tech>
+            <Tech>
+              <Img src="/dist/assets/TS.jpeg" id="typescript" />
+              <P>Typescript</P>
+            </Tech>                        
             <Tech>
               <Img src="/dist/assets/Bootstrap.png" id="Bootstrap" />
               <P>Bootstrap</P>
@@ -135,10 +139,6 @@ const TechStack = () => {
             <Tech>
               <Img src="https://cdn.svgporn.com/logos/django.svg" id="Django" />
               <P>Django</P>
-            </Tech>
-            <Tech>
-              <Img src="/dist/assets/php.png" id="php" />
-              <P>php</P>
             </Tech>
             <Tech>
               <Img
