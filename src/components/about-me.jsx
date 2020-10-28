@@ -177,7 +177,7 @@ const AboutMe = () => {
           <P>
             My coding journey began when I realized that I wanted to resolve for
             life's everyday problems. <br />I took a full immersive course for
-            Full Stack Web Development which me to advance in programming.{' '}
+            Full Stack Web Development which helped me advance my programming.{' '}
             <br />I learned how to work with a team. I also obtained the
             abilities for learning new technologies which will strengthen me as
             a developer.

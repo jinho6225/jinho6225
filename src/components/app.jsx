@@ -78,76 +78,26 @@ class App extends Component {
           img: `dist/assets/flash-card.gif`,
         },
         {
-          link: 'https://jinhomyung.pythonanywhere.com/',
-          title: 'Todo App (Django Template)',
-          github: 'https://github.com/jinho6225/django_todo',
+          link: 'https://jinho6225.github.io/todofam/',
+          title: 'ToDo App Family - same logic(system design) / different tech stack',
+          github: 'https://github.com/jinho6225/todofam',
           desc:
-            'what Django is all about. basics of creating a simple todo app.',
+            `Built simple Todo App family using Python + Django base, separated backend and frontend using Django REST framework allowing backend could provide endpoint to database which related with CRUD feature to frontend`,
           id: 4,
           stack: [
             'CSS Variables',
             'HTML5',
+            'Vanilla JS',
+            'React.js',
+            'React Hooks',
             'Python',
             'Django',
             'Django template',
+            'Django REST Framework',
+            'Django-cors-headers',
             'Sqlite3'
           ],
-          img: 'dist/assets/django_template.gif',
-        },
-        {
-          link: 'https://jinho6225.pythonanywhere.com/',
-          title: 'Todo List with Django REST api',
-          github: 'https://github.com/jinho6225/todo_drf',
-          desc:
-            'Todo App (Django REST framework + Vanilla JavaScript)',
-          id: 5,
-          stack: [
-            'Vanilla JavaScript',
-            'CSS Variables',
-            'HTML5',
-            'Python',
-            'Django',
-            'Django REST framework',
-            'Sqlite3'
-          ],
-          img: `dist/assets/todo.gif`,
-        },
-        {
-          link: 'https://jhmyung.pythonanywhere.com/',
-          title: 'Todo List with Django RESTful api + React.js',
-          github: 'https://github.com/jinho6225/todo_drf_react',
-          desc:
-            'Todo App (Django REST framework + React.js) / SPA(Single Page Application)',
-          id: 6,
-          stack: [
-            'React.js',
-            'CSS Variables',
-            'HTML5',
-            'Python',
-            'Django',
-            'Django RESTful API',
-            'Sqlite3'
-          ],
-          img: `dist/assets/django_react_todo.gif`,
-        },
-        {
-          link: 'https://jhmyung6225.pythonanywhere.com/',
-          title: 'Todo List with Django RESTful API + React Hooks',
-          github: 'https://github.com/jinho6225/todo_drf_react_hooks',
-          desc:
-            'Todo App (Django RESTful API + React Hooks) / SPA(Single Page Application)',
-          id: 7,
-          stack: [
-            'React.js',
-            'React Hooks',
-            'CSS Variables',
-            'HTML5',
-            'Python',
-            'Django',
-            'Django RESTful API',
-            'Sqlite3'
-          ],
-          img: `dist/assets/todo_hooks.gif`,
+          img: 'dist/assets/todofam.gif',
         },
         {
           link: 'https://burgers-n-brew.jinho6225.com/',
@@ -155,7 +105,7 @@ class App extends Component {
           github: 'https://github.com/jeff-jones2020/burgers-n-brew',
           desc:
             'A dynamic mobile-first web application for hungry people who want to find deals on a classic combo - burgers and beer.',
-          id: 8,
+          id: 5,
           stack: [
             'React.js',
             'SASS',
