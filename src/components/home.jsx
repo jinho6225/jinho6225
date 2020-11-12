@@ -119,7 +119,7 @@ class Home extends Component {
               target="_blank"
             >
               <i className="fab fa-linkedin"></i>
-              &nbsp; Linkedin
+              &nbsp; LinkedIn
             </A>
             <A
               href="https://jinho6225.github.io/"

@@ -100,10 +100,16 @@ class App extends Component {
         },
         {
           link: 'https://jinho6225.github.io/todofam/',
-          title: 'ToDo App Family - same logic(system design) / different teck stack',
+          title: 'ToDo App Family - same logic(system design) / different tech stack',
           github: 'https://github.com/jinho6225/todofam',
+<<<<<<< HEAD
           desc:`Built simple Todo App family using Python + Django base, separated backend and frontend using Django REST framework allowing backend could provide endpoint to database which related with CRUD feature to frontend`,
           id: 5,
+=======
+          desc:
+            `Built simple Todo App family using Python + Django base, separated backend and frontend using Django REST framework allowing backend could provide endpoint to database which related with CRUD feature to frontend`,
+          id: 4,
+>>>>>>> fa0935ce4bd0e937430dd17a07dd0b8b4f494a86
           stack: [
             'CSS Variables',
             'HTML5',
