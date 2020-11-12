@@ -87,6 +87,10 @@ const TechStack = () => {
               <P>CSS3</P>
             </Tech>
             <Tech>
+              <Img src="https://cdn.svgporn.com/logos/d3.svg" id="d3" />
+              <P>D3</P>
+            </Tech>
+            <Tech>
               <Img src="https://cdn.svgporn.com/logos/react.svg" id="react" />
               <P>React</P>
             </Tech>

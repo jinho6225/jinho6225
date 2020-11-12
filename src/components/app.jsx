@@ -43,11 +43,32 @@ class App extends Component {
           img: `dist/assets/sgt.gif`,
         },
         {
+          link: 'https://hellometer.jinho6225.com',
+          title: 'Hellometer - Data Visualization',
+          github: 'https://github.com/jinho6225/hello_meter',
+          desc:
+            'A full stack Node.js and React.js - Data visualization App',
+          id: 2,
+          stack: [
+            'D3.js',
+            'React.js',
+            'React Router',
+            'Bootstrap 4',
+            'CSS3',
+            'HTML5',
+            'SVG',
+            'Node.js',
+            'Express.js',            
+            'AWS EC2',
+          ],
+          img: `dist/assets/hellometer.gif`,
+        },
+        {
           link: 'https://patagogogo.jinho6225.com/',
           title: 'patagogogo-sales',
           github: 'https://github.com/jinho6225/patagogogo',
           desc: `A full stack Node.js and React.js E-commerce shopping cart app for fashion brand.`,
-          id: 2,
+          id: 3,
           stack: [
             'React.js',
             'Bootstrap 4',
@@ -66,7 +87,7 @@ class App extends Component {
           title: 'Flash-Card',
           github: 'https://github.com/jinho6225/flash-card',
           desc: 'A Dynamic Flash Card, responsive web App built with React.js.',
-          id: 3,
+          id: 4,
           stack: [
             'React.js',
             'Bootstrap 4',
@@ -82,7 +103,7 @@ class App extends Component {
           title: 'ToDo App Family - same logic(system design) / different teck stack',
           github: 'https://github.com/jinho6225/todofam',
           desc:`Built simple Todo App family using Python + Django base, separated backend and frontend using Django REST framework allowing backend could provide endpoint to database which related with CRUD feature to frontend`,
-          id: 4,
+          id: 5,
           stack: [
             'CSS Variables',
             'HTML5',
@@ -104,7 +125,7 @@ class App extends Component {
           github: 'https://github.com/jeff-jones2020/burgers-n-brew',
           desc:
             'A dynamic mobile-first web application for hungry people who want to find deals on a classic combo - burgers and beer.',
-          id: 5,
+          id: 6,
           stack: [
             'React.js',
             'SASS',
