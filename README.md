@@ -20,23 +20,23 @@ Resume | Portfolio | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/ReactRouter-critical?style=flat-square&logo=React Router&logoColor=white" />
 <img src="https://img.shields.io/badge/Vue-green?style=flat-square&logo=vue.js&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML-red?style=flat-square&logo=HTML5&logoColor=white" />
-<img src="https://img.shields.io/badge/css-blue?style=flat-square&logo=CSS3&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS-blue?style=flat-square&logo=CSS3&logoColor=white" />
 <img src="https://img.shields.io/badge/bootstrap-purple?style=flat-square&logo=bootstrap&logoColor=white" />
-<img src="https://img.shields.io/badge/tailwind%20css-green?style=flat-square&logo=tailwind%20css&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind%20css-green?style=flat-square&logo=tailwind%20css&logoColor=white" />
 <img src="https://img.shields.io/badge/Sass-pink?style=flat-square&logo=sass&logoColor=white" />
-<img src="https://img.shields.io/badge/D3.js-yellow?style=flat-square&logo=D3.js&logoColor=white" />
+<img src="https://img.shields.io/badge/D3-yellow?style=flat-square&logo=D3.js&logoColor=white" />
+<img src="https://img.shields.io/badge/aws-navy?style=flat-square&logo=amazon%20aws&logoColor=white"  />
 <img src="https://img.shields.io/badge/-Redux-purple?style=flat-square&logo=Redux&logoColor=white" />
-<img src="https://img.shields.io/badge/Node.js-green?style=flat-square&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Node-green?style=flat-square&logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Express-gray?style=flat-square&logo=Express&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-blue?style=flat-square&logo=Python&logoColor=white" />
-<img src="https://img.shields.io/badge/pandas-navy?style=flat-square&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-navy?style=flat-square&logo=pandas&logoColor=white" />
 <img src="https://img.shields.io/badge/Django-darkgreen?style=flat-square&logo=Django&logoColor=white" />
-<img src="https://img.shields.io/badge/aws-navy?style=flat-square&logo=amazon%20aws&logoColor=white"  />
 <img src="https://img.shields.io/badge/Mysql-skyblue?style=flat-square&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/Postgresql-blue?style=flat-square&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/MongoDB-darkgreen?style=flat-square&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/Sqlite-blue?style=flat-square&logo=sqlite&logoColor=white" />
-<img src="https://img.shields.io/badge/markdown-gray?style=flat-square&logo=markdown&logoColor=white"/>
+<img src="https://img.shields.io/badge/Markdown-gray?style=flat-square&logo=markdown&logoColor=white"/>
 </span>
 
 
@@ -52,9 +52,9 @@ Resume | Portfolio | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/webpack-skyblue?style=flat-square&logo=webpack&logoColor=white"/>
 <img src="https://img.shields.io/badge/gulp-red?style=flat-square&logo=gulp&logoColor=white"/>
 <img src="https://img.shields.io/badge/babel-yellow?style=flat-square&logo=babel&logoColor=white"/>
+<img src="https://img.shields.io/badge/chrome%20devtool-blue?style=flat-square&logo=google%20chrome&logoColor=white"/>
 <img src="https://img.shields.io/badge/ubuntu-red?style=flat-square&logo=ubuntu&logoColor=white"/>
 <img src="https://img.shields.io/badge/jira-blue?style=flat-square&logo=jira&logoColor=white"/>
-<img src="https://img.shields.io/badge/chrome%20devtool-blue?style=flat-square&logo=google%20chrome&logoColor=white"/>
 </span>
 
 
