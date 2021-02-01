@@ -21,12 +21,12 @@ Resume | Portfolio | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/Vue-green?style=flat-square&logo=vue.js&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML-red?style=flat-square&logo=HTML5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS-blue?style=flat-square&logo=CSS3&logoColor=white" />
-<img src="https://img.shields.io/badge/bootstrap-purple?style=flat-square&logo=bootstrap&logoColor=white" />
+<img src="https://img.shields.io/badge/Bootstrap-purple?style=flat-square&logo=bootstrap&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailwind%20css-green?style=flat-square&logo=tailwind%20css&logoColor=white" />
 <img src="https://img.shields.io/badge/Sass-pink?style=flat-square&logo=sass&logoColor=white" />
 <img src="https://img.shields.io/badge/D3-yellow?style=flat-square&logo=D3.js&logoColor=white" />
 <img src="https://img.shields.io/badge/aws-navy?style=flat-square&logo=amazon%20aws&logoColor=white"  />
-<img src="https://img.shields.io/badge/-Redux-purple?style=flat-square&logo=Redux&logoColor=white" />
+<img src="https://img.shields.io/badge/Redux-purple?style=flat-square&logo=Redux&logoColor=white" />
 <img src="https://img.shields.io/badge/Node-green?style=flat-square&logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Express-gray?style=flat-square&logo=Express&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-blue?style=flat-square&logo=Python&logoColor=white" />
