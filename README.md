@@ -1,6 +1,6 @@
-## Welcome My Github Page 
+# Welcome My Github Page 
 
-### Hello! I'm Jinho 🙌, a full-stack web developer with a passion for programming, coding, and problem-solving! I like a challenge🔥
+### Hello! I'm Jinho 🙌, a full-stack web developer with a passion for programming, coding, and problem-solving!🔥
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjinho6225&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
@@ -14,44 +14,44 @@ Resume | Portfolio | Linkedin | Github | Email
 
 > #### ⚒ _Tech Stack_
 <span>
-<img src="https://img.shields.io/badge/JavaScript-yellow?style=flat-square&logo=JavaScript&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=TypeScript&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/React-blue?style=flat-square&logo=React&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/ReactRouter-critical?style=flat-square&logo=React Router&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/Vue-green?style=flat-square&logo=vue.js&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/HTML-red?style=flat-square&logo=HTML5&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/css-blue?style=flat-square&logo=CSS3&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/bootstrap-purple?style=flat-square&logo=bootstrap&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/tailwind%20css-green?style=flat-square&logo=tailwind%20css&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/Sass-pink?style=flat-square&logo=sass&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/D3.js-yellow?style=flat-square&logo=D3.js&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/-Redux-purple?style=flat-square&logo=Redux&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/Node.js-green?style=flat-square&logo=node.js&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/Express-gray?style=flat-square&logo=Express&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/Python-blue?style=flat-square&logo=Python&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/Django-darkgreen?style=flat-square&logo=Django&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/amazon%20aws-navy?style=flat-square&logo=amazon%20aws&logoColor=white"  width="40px"/>
-<img src="https://img.shields.io/badge/Mysql-skyblue?style=flat-square&logo=mysql&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/Postgresql-blue?style=flat-square&logo=postgresql&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/MongoDB-darkgreen?style=flat-square&logo=mongodb&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/Sqlite-blue?style=flat-square&logo=sqlite&logoColor=white" width="40px"/>
+<img src="https://img.shields.io/badge/JavaScript-yellow?style=flat-square&logo=JavaScript&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=TypeScript&logoColor=white" />
+<img src="https://img.shields.io/badge/React-blue?style=flat-square&logo=React&logoColor=white" />
+<img src="https://img.shields.io/badge/ReactRouter-critical?style=flat-square&logo=React Router&logoColor=white" />
+<img src="https://img.shields.io/badge/Vue-green?style=flat-square&logo=vue.js&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML-red?style=flat-square&logo=HTML5&logoColor=white" />
+<img src="https://img.shields.io/badge/css-blue?style=flat-square&logo=CSS3&logoColor=white" />
+<img src="https://img.shields.io/badge/bootstrap-purple?style=flat-square&logo=bootstrap&logoColor=white" />
+<img src="https://img.shields.io/badge/tailwind%20css-green?style=flat-square&logo=tailwind%20css&logoColor=white" />
+<img src="https://img.shields.io/badge/Sass-pink?style=flat-square&logo=sass&logoColor=white" />
+<img src="https://img.shields.io/badge/D3.js-yellow?style=flat-square&logo=D3.js&logoColor=white" />
+<img src="https://img.shields.io/badge/-Redux-purple?style=flat-square&logo=Redux&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-green?style=flat-square&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-gray?style=flat-square&logo=Express&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-blue?style=flat-square&logo=Python&logoColor=white" />
+<img src="https://img.shields.io/badge/Django-darkgreen?style=flat-square&logo=Django&logoColor=white" />
+<img src="https://img.shields.io/badge/amazon%20aws-navy?style=flat-square&logo=amazon%20aws&logoColor=white"  />
+<img src="https://img.shields.io/badge/Mysql-skyblue?style=flat-square&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Postgresql-blue?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-darkgreen?style=flat-square&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Sqlite-blue?style=flat-square&logo=sqlite&logoColor=white" />
 </span>
 
 > #### ⚒ _Tools_
 <span>
-<img src="https://img.shields.io/badge/npm-red?style=flat-square&logo=npm&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/yarn-skyblue?style=flat-square&logo=yarn&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/Git-red?style=flat-square&logo=git&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/Visual%20Studio%20Code-darkblue?style=flat-square&logo=visual%20studio%20code&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/JSON-skyblue?style=flat-square&logo=json&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/postman-red?style=flat-square&logo=postman&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/webpack-skyblue?style=flat-square&logo=webpack&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/gulp-red?style=flat-square&logo=gulp&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/babel-yellow?style=flat-square&logo=babel&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/ubuntu-red?style=flat-square&logo=ubuntu&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/jira-blue?style=flat-square&logo=jira&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/markdown-gray?style=flat-square&logo=markdown&logoColor=white" width="40px"/>
-<img src="https://img.shields.io/badge/google%20chrome-blue?style=flat-square&logo=google%20chrome&logoColor=white" width="40px"/>
+<img src="https://img.shields.io/badge/npm-red?style=flat-square&logo=npm&logoColor=white"/>
+<img src="https://img.shields.io/badge/yarn-skyblue?style=flat-square&logo=yarn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-red?style=flat-square&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/Visual%20Studio%20Code-darkblue?style=flat-square&logo=visual%20studio%20code&logoColor=white"/>
+<img src="https://img.shields.io/badge/JSON-skyblue?style=flat-square&logo=json&logoColor=white"/>
+<img src="https://img.shields.io/badge/postman-red?style=flat-square&logo=postman&logoColor=white"/>
+<img src="https://img.shields.io/badge/webpack-skyblue?style=flat-square&logo=webpack&logoColor=white"/>
+<img src="https://img.shields.io/badge/gulp-red?style=flat-square&logo=gulp&logoColor=white"/>
+<img src="https://img.shields.io/badge/babel-yellow?style=flat-square&logo=babel&logoColor=white"/>
+<img src="https://img.shields.io/badge/ubuntu-red?style=flat-square&logo=ubuntu&logoColor=white"/>
+<img src="https://img.shields.io/badge/jira-blue?style=flat-square&logo=jira&logoColor=white"/>
+<img src="https://img.shields.io/badge/markdown-gray?style=flat-square&logo=markdown&logoColor=white"/>
+<img src="https://img.shields.io/badge/google%20chrome-blue?style=flat-square&logo=google%20chrome&logoColor=white"/>
 </span>
 
 
@@ -59,7 +59,7 @@ Resume | Portfolio | Linkedin | Github | Email
 <br/>
 
 > #### _GitHub Stats Card_
-[![Jinho's github stats](https://github-readme-stats.vercel.app/api?username=jinho6225&hide=issues,contribs&count_private=true&show_icons=true)](https://github.com/jinho6225/github-readme-stats)
+[![Jinho's github stats](https://github-readme-stats.vercel.app/api?username=jinho6225&hide=issues,contribs&count_private=true&show_icons=true&theme=dark)](https://github.com/jinho6225/github-readme-stats)
 <!--
 ### 😄 Current activity
 - 🌱 I’m currently learning React
