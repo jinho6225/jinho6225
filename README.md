@@ -12,7 +12,7 @@ Resume | Portfolio | Linkedin | Github | Email
 
 
 
-> #### ⚒ _Tech Stack_
+> ### ⚒ _Tech Stack_
 <span>
 <img src="https://img.shields.io/badge/JavaScript-yellow?style=flat-square&logo=JavaScript&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=TypeScript&logoColor=white" />
@@ -37,7 +37,9 @@ Resume | Portfolio | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/Sqlite-blue?style=flat-square&logo=sqlite&logoColor=white" />
 </span>
 
-> #### ⚒ _Tools_
+
+
+> ### ⚒ _Tools_
 <span>
 <img src="https://img.shields.io/badge/npm-red?style=flat-square&logo=npm&logoColor=white"/>
 <img src="https://img.shields.io/badge/yarn-skyblue?style=flat-square&logo=yarn&logoColor=white"/>
@@ -58,8 +60,8 @@ Resume | Portfolio | Linkedin | Github | Email
 
 <br/>
 
-> #### _GitHub Stats Card_
-[![Jinho's github stats](https://github-readme-stats.vercel.app/api?username=jinho6225&hide=issues,contribs&count_private=true&show_icons=true&theme=dark)](https://github.com/jinho6225/github-readme-stats)
+> ### _GitHub Stats Card_
+[![Jinho's github stats](https://github-readme-stats.vercel.app/api?username=jinho6225&hide=issues,contribs&count_private=true&show_icons=true&theme=gotham)](https://github.com/jinho6225/github-readme-stats)
 <!--
 ### 😄 Current activity
 - 🌱 I’m currently learning React
