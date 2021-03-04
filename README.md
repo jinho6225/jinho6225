@@ -25,7 +25,7 @@ Resume | Portfolio | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/Tailwind%20css-green?style=flat-square&logo=tailwind%20css&logoColor=white" />
 <img src="https://img.shields.io/badge/Sass-pink?style=flat-square&logo=sass&logoColor=white" />
 <img src="https://img.shields.io/badge/D3-yellow?style=flat-square&logo=D3.js&logoColor=white" />
-<img src="https://img.shields.io/badge/aws-navy?style=flat-square&logo=amazon%20aws&logoColor=white"  />
+<img src="https://img.shields.io/badge/aws-navy?style=flat-square&logo=amazon%20aws&logoColor=white" />
 <img src="https://img.shields.io/badge/Redux-purple?style=flat-square&logo=Redux&logoColor=white" />
 <img src="https://img.shields.io/badge/Node-green?style=flat-square&logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Express-gray?style=flat-square&logo=Express&logoColor=white" />
@@ -36,7 +36,7 @@ Resume | Portfolio | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/Postgresql-blue?style=flat-square&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/MongoDB-darkgreen?style=flat-square&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/Sqlite-blue?style=flat-square&logo=sqlite&logoColor=white" />
-<img src="https://img.shields.io/badge/Markdown-gray?style=flat-square&logo=markdown&logoColor=white"/>
+<img src="https://img.shields.io/badge/Markdown-gray?style=flat-square&logo=markdown&logoColor=white" />
 </span>
 
 
