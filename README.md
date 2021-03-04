@@ -30,8 +30,8 @@ Resume | Portfolio | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/Node-green?style=flat-square&logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Express-gray?style=flat-square&logo=Express&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-blue?style=flat-square&logo=Python&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-navy?style=flat-square&logo=pandas&logoColor=white" />
 <img src="https://img.shields.io/badge/Django-darkgreen?style=flat-square&logo=Django&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-navy?style=flat-square&logo=pandas&logoColor=white" />
 <img src="https://img.shields.io/badge/Mysql-skyblue?style=flat-square&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/Postgresql-blue?style=flat-square&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/MongoDB-darkgreen?style=flat-square&logo=mongodb&logoColor=white" />
