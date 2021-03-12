@@ -11,7 +11,6 @@ Resume | Portfolio | Linkedin | Github | Email
 [![Resume📄](https://img.shields.io/badge/Resume-blue?style=flat-square&logo=read%20the%20docs&logoColor=white&link=https://drive.google.com/file/d/1tIXxgrAmTGdCXqFPJ7aVLrNh_ju38rNU/view)](https://drive.google.com/file/d/1tIXxgrAmTGdCXqFPJ7aVLrNh_ju38rNU/view) | [![MyPortfolio🚀](https://img.shields.io/badge/Portfolio-yellow?style=flat-square&logo=apache%20rocketmq&logoColor=white&link=https://jinho6225.com/)](https://jinho6225.com/) | [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jinho6225/)](https://www.linkedin.com/in/jinho6225/) | [![Github Badge](https://img.shields.io/badge/-Github-black?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jinho6225)](https://www.github.com/jinho6225) | [![jinho6225@hotmail.com](https://img.shields.io/badge/jinho6225@hotmail.com-blue?style=flat-square&logo=minutemailer&logoColor=white&link=mailto:jinho6225@hotmail.com)](mailto:jinho6225@hotmail.com)
 
 
-<!--
 ### _Tech Stack_ 📚
 <span>
 <img src="https://img.shields.io/badge/JavaScript-yellow?style=flat-square&logo=JavaScript&logoColor=white" />
@@ -38,9 +37,9 @@ Resume | Portfolio | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/Sqlite-blue?style=flat-square&logo=sqlite&logoColor=white" />
 <img src="https://img.shields.io/badge/Markdown-gray?style=flat-square&logo=markdown&logoColor=white" />
 </span>
--->
 
-<!--
+
+
 ### _Tools_ 🛠
 <span>
 <img src="https://img.shields.io/badge/npm-red?style=flat-square&logo=npm&logoColor=white"/>
@@ -56,13 +55,14 @@ Resume | Portfolio | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/ubuntu-red?style=flat-square&logo=ubuntu&logoColor=white"/>
 <img src="https://img.shields.io/badge/jira-blue?style=flat-square&logo=jira&logoColor=white"/>
 </span>
--->
+
 
 
 <br/>
 
 ### _GitHub Stats Card_ 🗂
 [![Jinho's github stats](https://github-readme-stats.vercel.app/api?username=jinho6225&hide=issues,contribs&count_private=true&show_icons=true&theme=gotham)](https://github.com/jinho6225/github-readme-stats)
+
 <!--
 ### 😄 Current activity
 - 🌱 I’m currently learning React
