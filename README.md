@@ -22,7 +22,6 @@ Resume | Portfolio | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/HTML-red?style=flat-square&logo=HTML5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS-blue?style=flat-square&logo=CSS3&logoColor=white" />
 <img src="https://img.shields.io/badge/Bootstrap-purple?style=flat-square&logo=bootstrap&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind%20css-green?style=flat-square&logo=tailwind%20css&logoColor=white" />
 <img src="https://img.shields.io/badge/Sass-pink?style=flat-square&logo=sass&logoColor=white" />
 <img src="https://img.shields.io/badge/D3-yellow?style=flat-square&logo=D3.js&logoColor=white" />
 <img src="https://img.shields.io/badge/aws-navy?style=flat-square&logo=amazon%20aws&logoColor=white" />
@@ -64,13 +63,13 @@ Resume | Portfolio | Linkedin | Github | Email
 ### _GitHub Stats Card_ 🗂
 [![Jinho's github stats](https://github-readme-stats.vercel.app/api?username=jinho6225&hide=issues,contribs&count_private=true&show_icons=true&theme=gotham)](https://github.com/jinho6225/github-readme-stats)
 
-<!--
+
 ### 😄 Current activity
-- 🌱 I’m currently learning React
-- 👯 I’m looking to collaborate on ...
+- 🌱 I’m currently learning Swift
+<!-- - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- ⚡ Fun fact: ... -->
+
