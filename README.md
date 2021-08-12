@@ -46,6 +46,7 @@ Resume | Portfolio | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/yarn-skyblue?style=flat-square&logo=yarn&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-red?style=flat-square&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/VSC-darkblue?style=flat-square&logo=visual%20studio%20code&logoColor=white"/>
+<img src="https://img.shields.io/badge/Xcode-white?style=flat-square&logo=xcode&logoColor=blue"/>
 <img src="https://img.shields.io/badge/JSON-skyblue?style=flat-square&logo=json&logoColor=white"/>
 <img src="https://img.shields.io/badge/postman-red?style=flat-square&logo=postman&logoColor=white"/>
 <img src="https://img.shields.io/badge/webpack-skyblue?style=flat-square&logo=webpack&logoColor=white"/>
