@@ -54,6 +54,8 @@ Resume | Portfolio | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/chrome%20devtool-blue?style=flat-square&logo=google%20chrome&logoColor=white"/>
 <img src="https://img.shields.io/badge/ubuntu-red?style=flat-square&logo=ubuntu&logoColor=white"/>
 <img src="https://img.shields.io/badge/jira-blue?style=flat-square&logo=jira&logoColor=white"/>
+<img src="https://img.shields.io/badge/confluence-white?style=flat-square&logo=confluence&logoColor=blue"/>
+
 </span>
 
 
