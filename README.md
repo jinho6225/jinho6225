@@ -6,9 +6,9 @@
 
 
 ### _Contact Info_ 💁‍♂️
-Resume | Portfolio | Linkedin | Github | Email
+Resume | Linkedin | Github | Email
 --- | --- | --- | --- | ---
-[![Resume📄](https://img.shields.io/badge/Resume-blue?style=flat-square&logo=read%20the%20docs&logoColor=white&link=https://drive.google.com/file/d/1tIXxgrAmTGdCXqFPJ7aVLrNh_ju38rNU/view)](https://drive.google.com/file/d/1tIXxgrAmTGdCXqFPJ7aVLrNh_ju38rNU/view) | [![MyPortfolio🚀](https://img.shields.io/badge/Portfolio-yellow?style=flat-square&logo=apache%20rocketmq&logoColor=white&link=https://jinho6225.com/)](https://jinho6225.com/) | [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jinho6225/)](https://www.linkedin.com/in/jinho6225/) | [![Github Badge](https://img.shields.io/badge/-Github-black?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jinho6225)](https://www.github.com/jinho6225) | [![jinho6225@hotmail.com](https://img.shields.io/badge/jinho6225@hotmail.com-blue?style=flat-square&logo=minutemailer&logoColor=white&link=mailto:jinho6225@hotmail.com)](mailto:jinho6225@hotmail.com)
+[![Resume📄](https://img.shields.io/badge/Resume-blue?style=flat-square&logo=read%20the%20docs&logoColor=white&link=https://drive.google.com/file/d/1tIXxgrAmTGdCXqFPJ7aVLrNh_ju38rNU/view)](https://drive.google.com/file/d/1tIXxgrAmTGdCXqFPJ7aVLrNh_ju38rNU/view) | [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jinho6225/)](https://www.linkedin.com/in/jinho6225/) | [![Github Badge](https://img.shields.io/badge/-Github-black?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jinho6225)](https://www.github.com/jinho6225) | [![jinho6225@hotmail.com](https://img.shields.io/badge/jinho6225@hotmail.com-blue?style=flat-square&logo=minutemailer&logoColor=white&link=mailto:jinho6225@hotmail.com)](mailto:jinho6225@hotmail.com)
 
 
 ### _Tech Stack_ 📚
