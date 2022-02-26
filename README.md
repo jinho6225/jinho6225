@@ -14,10 +14,12 @@ Resume | Linkedin | Github | Email
 ### _Tech Stack_ 📚
 <span>
 <img src="https://img.shields.io/badge/JavaScript-yellow?style=flat-square&logo=JavaScript&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=TypeScript&logoColor=white" />
 <img src="https://img.shields.io/badge/React-blue?style=flat-square&logo=React&logoColor=white" />
-<img src="https://img.shields.io/badge/Vue-green?style=flat-square&logo=vue.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Node-green?style=flat-square&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=TypeScript&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-gray?style=flat-square&logo=Express&logoColor=white" />
 <img src="https://img.shields.io/badge/ReactRouter-red?style=flat-square&logo=React%20Router&logoColor=white" />
+<img src="https://img.shields.io/badge/Vue-green?style=flat-square&logo=vue.js&logoColor=white" />
 <img src="https://img.shields.io/badge/swift-red?style=flat-square&logo=swift&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML-red?style=flat-square&logo=HTML5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS-blue?style=flat-square&logo=CSS3&logoColor=white" />
@@ -26,8 +28,6 @@ Resume | Linkedin | Github | Email
 <img src="https://img.shields.io/badge/D3-yellow?style=flat-square&logo=D3.js&logoColor=white" />
 <img src="https://img.shields.io/badge/aws-navy?style=flat-square&logo=amazon%20aws&logoColor=white" />
 <img src="https://img.shields.io/badge/Redux-purple?style=flat-square&logo=Redux&logoColor=white" />
-<img src="https://img.shields.io/badge/Node-green?style=flat-square&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Express-gray?style=flat-square&logo=Express&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-blue?style=flat-square&logo=Python&logoColor=white" />
 <img src="https://img.shields.io/badge/Django-darkgreen?style=flat-square&logo=Django&logoColor=white" />
 <img src="https://img.shields.io/badge/Pandas-navy?style=flat-square&logo=pandas&logoColor=white" />
