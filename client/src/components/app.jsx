@@ -54,7 +54,7 @@ class App extends Component {
           img: `./assets/pata1.gif`,
         },
         {
-          // link: 'https://flash-card.jinho6225.com',
+          link: 'https://jinho6225.github.io/flashflash-card/',
           title: 'Flash-Card',
           github: 'https://github.com/jinho6225/flash-card',
           desc: 'A Dynamic Flash Card, responsive web App built with React.js.',
