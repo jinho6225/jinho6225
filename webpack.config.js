@@ -1,21 +1,27 @@
+const path = require('path');
+
 module.exports = {
-  resolve: {
-    extensions: ['.js', '.jsx']
+  mode: 'development',
+  entry: path.resolve(__dirname, './client/src'),
+  output: {
+    path: path.resolve(__dirname, './client/dist'),
+    filename: 'bundle.js',
   },
   module: {
     rules: [
       {
+        loader: 'babel-loader',
         test: /\.js[x]?/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            plugins: [
-              '@babel/plugin-transform-react-jsx'
-            ]
-          }
-        }
-      }
-    ]
+        exclude: /node_modules/,
+        options: {
+          plugins: [
+            '@babel/plugin-transform-react-jsx'
+          ]
+        },
+      },
+    ],
   },
-  performance: { hints: false }
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
 };

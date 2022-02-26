@@ -2,9 +2,8 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "jinho's portfolio",
-  "main": "index.js",
+  "main": "./server/index.js",
   "dependencies": {
-    "eslint-plugin-prettier": "^3.1.2",
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
     "react": "^16.12.0",
@@ -18,31 +17,11 @@
     "@babel/core": "^7.8.4",
     "@babel/plugin-transform-react-jsx": "^7.8.3",
     "babel-loader": "^8.0.6",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^1.7.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   },
-  "eslintConfig": {
-    "sourceType": "module"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=production",
-    "start": "nodemon server/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jinho6225/jinho6225.git"
-  },
-  "author": "jinho6225",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jinho6225/jinho6225/issues"
-  },
-  "homepage": "https://github.com/jinho6225/jinho6225#readme"
+    "build": "webpack",
+    "start": "node server/index.js"
+  }
 }

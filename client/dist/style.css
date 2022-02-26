@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+  animation: fade-in 1s;
+}
+body {
+  font-family: "Corsa Grotesk", "Corsa Grotesk Thin", sans-serif;
+}
