@@ -115,7 +115,7 @@ const AboutMe = () => {
       <AboutMeContainer>
         <PictureBox>
           <div>
-            <Pic src="https://drive.google.com/file/d/1Z0OTm7pQWe9i0-TmEuW5sdA4l6DaG-7R/view?usp=sharing" alt="" />
+            <Pic src="./assets/jmyung.JPG" alt="" />
           </div>
           <List>
             <A
