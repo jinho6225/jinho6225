@@ -18,24 +18,18 @@ Resume | Linkedin | Github | Portfolio | Email
 <img src="https://img.shields.io/badge/Node-green?style=flat-square&logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=TypeScript&logoColor=white" />
 <img src="https://img.shields.io/badge/Express-gray?style=flat-square&logo=Express&logoColor=white" />
-<img src="https://img.shields.io/badge/ReactRouter-red?style=flat-square&logo=React%20Router&logoColor=white" />
+<img src="https://img.shields.io/badge/D3-yellow?style=flat-square&logo=D3.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Vue-green?style=flat-square&logo=vue.js&logoColor=white" />
 <img src="https://img.shields.io/badge/swift-red?style=flat-square&logo=swift&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML-red?style=flat-square&logo=HTML5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS-blue?style=flat-square&logo=CSS3&logoColor=white" />
-<img src="https://img.shields.io/badge/Bootstrap-purple?style=flat-square&logo=bootstrap&logoColor=white" />
-<img src="https://img.shields.io/badge/Sass-pink?style=flat-square&logo=sass&logoColor=white" />
-<img src="https://img.shields.io/badge/D3-yellow?style=flat-square&logo=D3.js&logoColor=white" />
 <img src="https://img.shields.io/badge/aws-navy?style=flat-square&logo=amazon%20aws&logoColor=white" />
 <img src="https://img.shields.io/badge/Redux-purple?style=flat-square&logo=Redux&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-blue?style=flat-square&logo=Python&logoColor=white" />
 <img src="https://img.shields.io/badge/Django-darkgreen?style=flat-square&logo=Django&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-navy?style=flat-square&logo=pandas&logoColor=white" />
 <img src="https://img.shields.io/badge/Mysql-skyblue?style=flat-square&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/Postgresql-blue?style=flat-square&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/MongoDB-darkgreen?style=flat-square&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Sqlite-blue?style=flat-square&logo=sqlite&logoColor=white" />
-<img src="https://img.shields.io/badge/Markdown-gray?style=flat-square&logo=markdown&logoColor=white" />
 </span>
 
 
@@ -50,7 +44,6 @@ Resume | Linkedin | Github | Portfolio | Email
 <img src="https://img.shields.io/badge/JSON-skyblue?style=flat-square&logo=json&logoColor=white"/>
 <img src="https://img.shields.io/badge/postman-red?style=flat-square&logo=postman&logoColor=white"/>
 <img src="https://img.shields.io/badge/webpack-skyblue?style=flat-square&logo=webpack&logoColor=white"/>
-<img src="https://img.shields.io/badge/gulp-red?style=flat-square&logo=gulp&logoColor=white"/>
 <img src="https://img.shields.io/badge/babel-yellow?style=flat-square&logo=babel&logoColor=white"/>
 <img src="https://img.shields.io/badge/chrome%20devtool-blue?style=flat-square&logo=google%20chrome&logoColor=white"/>
 <img src="https://img.shields.io/badge/ubuntu-red?style=flat-square&logo=ubuntu&logoColor=white"/>
@@ -67,12 +60,12 @@ Resume | Linkedin | Github | Portfolio | Email
 [![Jinho's github stats](https://github-readme-stats.vercel.app/api?username=jinho6225&hide=issues,contribs&count_private=true&show_icons=true&theme=gotham)](https://github.com/jinho6225/github-readme-stats)
 
 
-### 😄 Current activity
+<!-- ### 😄 Current activity
 - 🌱 I’m currently learning Swift
-<!-- - 👯 I’m looking to collaborate on ...
+- 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
-- ⚡ Fun fact: ... -->
-
+- ⚡ Fun fact: ...
+ -->
