@@ -22,7 +22,7 @@ Resume | Linkedin | Github | Portfolio | Email
 <img src="https://img.shields.io/badge/D3-yellow?style=flat-square&logo=D3.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Vue-green?style=flat-square&logo=vue.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Ruby-red?style=flat-square&logo=Ruby&logoColor=white" />
-<img src="https://img.shields.io/badge/Rails-white?style=flat-square&logo=Rails&logoColor=red" />
+<img src="https://img.shields.io/badge/RubyonRails-white?style=flat-square&logo=RubyonRails&logoColor=red" />
 <img src="https://img.shields.io/badge/swift-red?style=flat-square&logo=swift&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-blue?style=flat-square&logo=Python&logoColor=white" />
 <img src="https://img.shields.io/badge/Django-darkgreen?style=flat-square&logo=Django&logoColor=white" />
