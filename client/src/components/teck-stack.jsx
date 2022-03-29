@@ -80,6 +80,10 @@ const TechStack = () => {
               <P>React</P>
             </Tech>
             <Tech>
+              <Img src="https://cdn.svgporn.com/logos/vue.svg" id="vue" />
+              <P>Vue</P>
+            </Tech>
+            <Tech>
               <Img src="https://cdn.svgporn.com/logos/typescript-icon.svg" id="typescript" />
               <P>Typescript</P>
             </Tech>                        
@@ -98,14 +102,7 @@ const TechStack = () => {
               <Img src="https://cdn.svgporn.com/logos/d3.svg" id="d3" />
               <P>D3</P>
             </Tech>
-            <Tech>
-              <Img src="https://cdn.svgporn.com/logos/docker-icon.svg" id="Docker" />
-              <P>Docker</P>
-            </Tech>
-            <Tech>
-              <Img src="https://cdn.svgporn.com/logos/ubuntu.svg" id="ubuntu" />
-              <P>Ubuntu</P>
-            </Tech>
+
             <Tech>
               <Img src="https://cdn.svgporn.com/logos/html-5.svg" id="html5" />
               <P>HTML5</P>
@@ -119,7 +116,14 @@ const TechStack = () => {
               <Img src="https://cdn.svgporn.com/logos/redux.svg" id="redux" />
               <P>Redux</P>
             </Tech>
-
+            <Tech>
+              <Img src="https://cdn.svgporn.com/logos/ruby.svg" id="ruby" />
+              <P>Ruby</P>
+            </Tech>
+            <Tech>
+              <Img src="https://cdn.svgporn.com/logos/rails.svg" id="rails" />
+              <P>Rails</P>
+            </Tech>
             <Tech>
               <Img src="https://cdn.svgporn.com/logos/python.svg" id="python" />
               <P>python</P>
@@ -140,6 +144,10 @@ const TechStack = () => {
               <P>MySQL</P>
             </Tech>
             <Tech>
+              <Img src="https://cdn.svgporn.com/logos/mongodb.svg" id="mongo" />
+              <P>MongoDB</P>
+            </Tech>
+            <Tech>
               <Img
                 src="https://cdn.svgporn.com/logos/sequelize.svg"
                 id="mysql"
@@ -147,8 +155,12 @@ const TechStack = () => {
               <P>Sequelize</P>
             </Tech>
             <Tech>
-              <Img src="https://cdn.svgporn.com/logos/mongodb.svg" id="mongo" />
-              <P>MongoDB</P>
+              <Img src="https://cdn.svgporn.com/logos/docker-icon.svg" id="Docker" />
+              <P>Docker</P>
+            </Tech>
+            <Tech>
+              <Img src="https://cdn.svgporn.com/logos/ubuntu.svg" id="ubuntu" />
+              <P>Ubuntu</P>
             </Tech>
             <Tech>
               <Img
@@ -276,6 +288,10 @@ const TechStack = () => {
             <Tech>
               <Img src="https://cdn.svgporn.com/logos/jenkins.svg" id="jenkins" />
               <P>Jenkins</P>
+            </Tech>
+            <Tech>
+              <Img src="https://cdn.svgporn.com/logos/circleci.svg" id="circleci" />
+              <P>CirclrCI</P>
             </Tech>
           </TechDeck>                    
         </TechStackBox>
