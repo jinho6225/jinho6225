@@ -149,7 +149,7 @@ const AboutMe = () => {
               </div>
             </A>
             <A
-              href="https://drive.google.com/file/d/1VBDadRQ1CcynS7zeGWcRZkfmrMw5GbEl/view"
+              href="https://drive.google.com/file/d/1tIXxgrAmTGdCXqFPJ7aVLrNh_ju38rNU/view"
               target="_blank"
               aria-label="Resume Download"
             >
