@@ -4,6 +4,7 @@
   "description": "jinho's portfolio",
   "main": "./server/index.js",
   "dependencies": {
+    "node": "14.16.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
     "react": "^16.12.0",
