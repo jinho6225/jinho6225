@@ -24,7 +24,6 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "build": "webpack",
-    "start": "node server/index.js"
+    "build": "webpack"
   }
 }

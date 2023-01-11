@@ -16,7 +16,7 @@ class App extends Component {
     this.state = {
       portfolioArr: [
         {
-          link: 'https://hellometor.herokuapp.com/#/',
+          // link: 'https://hellometor.herokuapp.com/#/',
           title: 'Hellometer - Data Visualization',
           github: 'https://github.com/jinho6225/hello_meter',
           desc:
@@ -36,7 +36,7 @@ class App extends Component {
           img: `./assets/hellometer.gif`,
         },
         {
-          link: 'https://patagogo.herokuapp.com/',
+          // link: 'https://patagogo.herokuapp.com/',
           title: 'patagogogo-sales',
           github: 'https://github.com/jinho6225/patagogogo',
           desc: `A full stack Node.js and React.js E-commerce shopping cart app for fashion brand.`,
@@ -91,7 +91,7 @@ class App extends Component {
           img: `./assets/sgt.gif`,
         },
         {
-          link: 'bnb.jeff-j.me',
+          // link: 'bnb.jeff-j.me',
           title: 'burgers-n-brew',
           github: 'https://github.com/jeff-jones2020/burgers-n-brew',
           desc:
