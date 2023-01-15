@@ -57,12 +57,6 @@ Resume | Linkedin | Github | Portfolio | Email
 
 
 
-<br/>
-
-### _GitHub Stats Card_ 🗂
-[![Jinho's github stats](https://github-readme-stats.vercel.app/api?username=jinho6225&hide=issues,contribs&count_private=true&show_icons=true&theme=gotham)](https://github.com/jinho6225/github-readme-stats)
-
-
 <!-- ### 😄 Current activity
 - 🌱 I’m currently learning Swift
 - 👯 I’m looking to collaborate on ...
