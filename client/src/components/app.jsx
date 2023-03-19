@@ -16,7 +16,7 @@ class App extends Component {
     this.state = {
       portfolioArr: [
         {
-          // link: 'https://hellometor.herokuapp.com/#/',
+          link: 'https://port-0-hello-meter-p8xrq2mlffai3lm.sel3.cloudtype.app/',
           title: 'Hellometer - Data Visualization',
           github: 'https://github.com/jinho6225/hello_meter',
           desc:
