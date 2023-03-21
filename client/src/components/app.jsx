@@ -35,8 +35,8 @@ class App extends Component {
           ],
           img: `./assets/hellometer.gif`,
         },
-        {
-          link: 'https://port-0-patagogogo-p8xrq2mlfgpvqpo.sel3.cloudtype.app/',
+        {          
+          link: 'https://port-0-patagogogo-p8xrq2mlfig1u8m.sel3.cloudtype.app/',
           title: 'patagogogo-sales',
           github: 'https://github.com/jinho6225/patagogogo',
           desc: `A full stack Node.js and React.js E-commerce shopping cart app for fashion brand.`,
