@@ -167,7 +167,7 @@ const ContactMe = () => {
                 </Icon>
               </A>
               <A
-                href="https://drive.google.com/file/d/1tIXxgrAmTGdCXqFPJ7aVLrNh_ju38rNU/view" 
+                href="https://drive.google.com/file/d/1y0YJh41A4Rr9vT39wG46szJdZXWV_75c/view" 
                 target="_blank"
                 aria-label="Resume Download"
               >
