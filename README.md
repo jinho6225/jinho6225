@@ -4,7 +4,7 @@
 
 ### _Contact Info_ 💁‍♂️
 Linkedin | Github | Email
---- | --- | --- | ---
+--- | --- | ---
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jinho6225/)](https://www.linkedin.com/in/jinho6225/) | [![Github Badge](https://img.shields.io/badge/-Github-black?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jinho6225)](https://www.github.com/jinho6225) | [![jinho6225@hotmail.com](https://img.shields.io/badge/jinho6225@hotmail.com-blue?style=flat-square&logo=minutemailer&logoColor=white&link=mailto:jinho6225@hotmail.com)](mailto:jinho6225@hotmail.com)
 
 
